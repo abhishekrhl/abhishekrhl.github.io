@@ -6,7 +6,7 @@ type: "go"
 layout: "redirect"
 robots: "noindex, nofollow"
 redirect_to: "https://en.wikipedia.org/wiki/Apple_silicon"
-note: "hardware overview"
+note: "hardware overview — editorial"
 ---
 
 If you are not redirected, [continue here](https://en.wikipedia.org/wiki/Apple_silicon).

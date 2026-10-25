@@ -1,8 +1,23 @@
 slug,url,note
-apple-silicon,https://en.wikipedia.org/wiki/Apple_silicon,hardware overview
-ollama,https://github.com/ollama/ollama,local LLM runner
-mlx-audio,https://github.com/Blaizzy/mlx-audio,on-device TTS
-cloudflare-pages,https://developers.cloudflare.com/pages,static hosting and redirects
-hugo,https://gohugo.io/documentation,static site generator
-open-webui,https://github.com/open-webui/open-webui,local chat UI for Ollama
-llama-cpp,https://github.com/ggerganov/llama.cpp,local GGML/GGUF inference
+apple-silicon,https://en.wikipedia.org/wiki/Apple_silicon,hardware overview — editorial
+ollama,https://github.com/ollama/ollama,local LLM runner — editorial
+mlx-audio,https://github.com/Blaizzy/mlx-audio,on-device TTS — editorial
+hugo,https://gohugo.io/documentation,static site generator — editorial
+open-webui,https://github.com/open-webui/open-webui,local chat UI — editorial
+llama-cpp,https://github.com/ggerganov/llama.cpp,GGUF inference — editorial
+github-pages,https://docs.github.com/en/pages,static hosting on GitHub Pages — editorial (site host)
+cloudflare-pages,https://docs.github.com/en/pages,RETIRED host path — now GitHub Pages; old /go/cloudflare-pages kept for back-compat
+ugreen-mac-mini-dock,https://www.amazon.in/dp/B0DSJ5ZH8F?tag=abhishekrhl-21,Amazon.in UGREEN Mac mini dock+NVMe — tag=abhishekrhl-21
+satechi-mac-mini-hub,https://www.amazon.in/dp/B0DV6WJ88D?tag=abhishekrhl-21,Amazon.in Satechi Mac mini hub — tag=abhishekrhl-21; verify stock
+raycue-mac-mini-dock,https://www.amazon.in/dp/B0DT5LKD93?tag=abhishekrhl-21,Amazon.in RayCue Mac mini dock — tag=abhishekrhl-21
+acasis-dual-nvme,https://www.amazon.in/dp/B0FF4D1282?tag=abhishekrhl-21,Amazon.in ACASIS dual-bay NVMe — tag=abhishekrhl-21
+hagibis-mac-mini-hub,https://www.amazon.in/dp/B0DP8ZX7K8?tag=abhishekrhl-21,Amazon.in Hagibis Mac mini hub — tag=abhishekrhl-21
+samsung-t7-shield,https://www.amazon.in/s?k=Samsung+T7+Shield+2TB&tag=abhishekrhl-21,TODO_IN: confirm ASIN then swap to /dp/ — search stub with tag
+anker-usb-c-hub,https://www.amazon.in/s?k=Anker+555+USB-C+Hub&tag=abhishekrhl-21,TODO_IN: Anker hub search stub
+logitech-mx-master-3s-mac,https://www.amazon.in/s?k=Logitech+MX+Master+3S+for+Mac&tag=abhishekrhl-21,TODO_IN: MX Master Mac search stub
+keychron-k2-mac,https://www.amazon.in/s?k=Keychron+K2+Mac&tag=abhishekrhl-21,TODO_IN: Keychron Mac layout search stub
+wd-black-sn850x,https://www.amazon.in/s?k=WD+Black+SN850X+2TB&tag=abhishekrhl-21,TODO_IN: NVMe for DIY enclosure
+ugreen-mac-mini-dock-uk,https://www.amazon.co.uk/dp/B0DSJ5ZH8F,TODO_UK: plain ASIN URL — add Associates tag when UK approved
+satechi-mac-mini-hub-uk,https://www.amazon.co.uk/dp/B0DV6WJ88D,TODO_UK: plain ASIN URL
+samsung-t7-shield-uk,https://www.amazon.co.uk/s?k=Samsung+T7+Shield+2TB,TODO_UK: search stub — no tag
+anker-usb-c-hub-uk,https://www.amazon.co.uk/s?k=Anker+555+USB-C+Hub,TODO_UK: search stub — no tag

@@ -1,44 +1,58 @@
 ---
 title: "Building a quiet local AI desk on Apple silicon: a practical stack for indie writers"
-date: 2026-10-25T14:37:00+05:30
+date: 2026-10-25T23:15:20+05:30
 draft: false
-tags: ["local-ai","affiliate","apple-silicon"]
+slug: "building-quiet-local-ai-desk-stack"
+tags: ["local-ai", "apple-silicon", "hugo", "affiliate"]
+description: "Practical local-AI notes for a 16 GB Apple silicon Mac mini — affiliate links disclosed."
 ---
 
-# Building a quiet local AI desk on Apple silicon: a practical stack for indie writers
+> **Affiliate disclosure:** Some links are affiliate links. As an Amazon Associate I earn from qualifying purchases. See [Disclosure](/disclosure/).
 
-> [AFFILIATE DISCLOSURE PLACEHOLDER: This post may contain affiliate links. If you buy through them we may earn a commission at no extra cost to you.]
-
-For indie writers working within the practical constraints of a 16 GB Mac Mini, the goal is often to maintain privacy and acoustic discretion without sacrificing workflow efficiency. Heavy GPU training or constant cloud API calls introduce both noise—literal and figurative—and potential data leakage risks. A curated, open-source technical stack offers a viable alternative. This approach prioritises local inference, ensuring all content remains under the writer's control while leveraging the unified memory architecture of Apple Silicon hardware.
+For indie writers on a 16 GB Mac Mini, the priority is privacy and acoustic discretion without sacrificing workflow speed. Cloud API calls introduce latency and data leakage risks, while local GPU training generates noise. A curated open-source stack using local inference keeps content under your control and utilises Apple's unified memory architecture.
 
 ### Local Reasoning with Ollama
 
-Drafting and editing benefit from local reasoning capabilities. Ollama provides a straightforward interface for running open-weight models directly on the Mac. The software manages model downloads and inference automatically, abstracting away much of the underlying complexity [CITE: Ollama documentation].
+Drafting benefits from local reasoning via Ollama, which runs open-weight models directly on the Mac. It handles downloads and inference automatically (source: Ollama documentation).
 
-For a 16 GB machine, selecting the right model is critical. Larger models may exceed available memory or cause system instability. Efficient quantised versions, typically in the 4B to 9B parameter range, offer a balanced trade-off between reasoning quality and resource consumption [CITE: community benchmarks for LLMs on consumer hardware]. These models provide sufficient capability for summarising text, suggesting edits, or brainstorming ideas without consuming the entire memory pool.
+On 16 GB machines, model selection is critical. Larger models risk exceeding available memory or causing instability. Quantised versions in the 4B to 9B parameter range offer a better balance between reasoning quality and resource usage (source: community benchmarks for LLMs on consumer hardware). These sizes suffice for summarising text, suggesting edits, or brainstorming without exhausting the memory pool.
 
 ### Static Site Generation with Hugo
 
-Hosting a personal blog requires a reliable foundation. Hugo serves as a lightweight static site generator, ideal for this workflow. It compiles content into static HTML files, ensuring fast load times and minimal server-side overhead [CITE: Hugo documentation]. Unlike dynamic platforms that require continuous database queries or complex server configurations, Hugo produces a fixed set of files ready for deployment.
+Hugo serves as a lightweight static site generator for personal blogs. It compiles content into static HTML files, ensuring fast load times and minimal server overhead (source: Hugo documentation). Unlike dynamic platforms requiring continuous database queries, Hugo produces a fixed set of files ready for deployment.
 
-The deployment pipeline remains simple. After building the site locally, the generated files can be pushed to various hosting providers. This separation of build and host allows for flexibility; the writing environment stays local, while the publication layer can reside anywhere compatible with static file delivery.
+The pipeline remains simple: build locally, then push generated files to any provider supporting static delivery. This separates the local writing environment from the publication layer.
 
-### Hosting and Redirects via Cloudflare Pages
+### Hosting and Redirects via GitHub Pages
 
-Cloudflare Pages offers a robust solution for hosting these static builds. It provides global content delivery network (CDN) capabilities, ensuring the site loads quickly regardless of the visitor's location [CITE: Cloudflare Pages features]. The platform handles scaling automatically, removing the need to manage server capacity or worry about downtime during traffic spikes.
+GitHub Pages hosts these static builds with global CDN capabilities, ensuring fast loads regardless of visitor location (source: GitHub Pages features). It handles scaling automatically, removing the need to manage server capacity or worry about traffic spikes.
 
-A specific utility in this stack involves managing legacy URLs or tool-specific landing pages through custom redirects. By configuring rules within the hosting environment, writers can map old domain paths to new content seamlessly. This is particularly useful when integrating tools like `/go/ollama` or `/go/hugo` into a unified navigation structure without cluttering the main site with deep links [CITE: Cloudflare Pages routing documentation].
+A specific utility involves managing legacy URLs via custom redirects. Configuring rules maps old paths to new content. This is useful for integrating tools like `/go/ollama/` or `/go/hugo/` into a unified navigation structure without cluttering the main site with deep links (source: GitHub Pages routing documentation).
 
 ### Local Voiceovers with mlx-audio
 
-Audio production often introduces latency and cost when relying on external text-to-speech services. For short voiceovers, local inference provides a private and immediate alternative. `mlx-audio` enables this capability directly on Mac hardware, utilising the same neural engine resources available for other tasks [CITE: MLX documentation].
+External text-to-speech services often introduce latency and cost. For short voiceovers, local inference provides a private alternative. `mlx-audio` enables this directly on Mac hardware, utilising neural engine resources (source: MLX documentation).
 
-This tool allows writers to generate natural-sounding voiceovers without uploading transcripts to cloud servers. The process involves loading a small language model onto the device and running inference locally. While not designed for heavy video production or long-form narration, it is well-suited for short clips, intros, or audio notes that accompany written posts [CITE: community use cases for local TTS].
+This tool generates natural-sounding voiceovers without uploading transcripts to cloud servers. The process loads a small language model onto the device for local inference. While not designed for heavy video production or long-form narration, it suits short clips, intros, or audio notes accompanying posts (source: community use cases for local TTS).
 
-### Maintaining Constraints and Workflow
+### Managing Constraints and Workflow
 
-Staying within 16 GB practical constraints requires careful management of concurrent processes. Running large language models alongside a web browser or video editor can lead to memory pressure. Users should monitor unified memory usage and close unnecessary applications when engaging in heavy inference tasks [CITE: macOS Activity Monitor guidance].
+Staying within 16 GB limits requires careful process management. Running large language models alongside a web browser or video editor creates memory pressure. Monitor unified memory usage in Activity Monitor and close unnecessary apps during heavy inference tasks (source: macOS Activity Monitor guidance).
 
-Keeping heavy video generation out of writing hours is a sensible strategy. Video processing demands significantly more resources than text-based workflows. By separating these activities, writers preserve system stability for their primary content creation tasks. This discipline ensures that the local stack remains responsive and reliable throughout the day.
+Keep heavy video generation separate from writing hours. Video processing demands significantly more resources than text workflows. Separating these activities preserves system stability for primary content creation, keeping the local stack responsive throughout the day.
 
-The combination of `/go/ollama`, `/go/hugo`, `/go/cloudflare-pages`, `/go/mlx-audio` and `/go/apple-silicon` creates a cohesive environment where each tool plays a specific role in reasoning, publishing, hosting and audio generation, forming a complete, quiet local AI desk tailored for that ecosystem.
+The combination of `/go/ollama/`, `/go/hugo/`, `/go/github-pages/`, `/go/mlx-audio/` and `/go/apple-silicon/` forms a cohesive environment for reasoning, publishing, hosting and audio generation on that hardware.
+
+
+---
+
+## Desk gear that actually helps a 16 GB Mac mini (affiliate)
+
+If model files and drafts are fighting the internal SSD, external NVMe via a Mac mini dock is the practical upgrade — not a bigger cloud bill.
+
+- [UGREEN Mac mini dock with NVMe slot](/go/ugreen-mac-mini-dock/) (affiliate) — ports + model-library drive in one stand.
+- [Satechi Mac mini hub & stand](/go/satechi-mac-mini-hub/) (affiliate) — design-matched alternative.
+- [Samsung T7 Shield portable SSD](/go/samsung-t7-shield/) (affiliate) — fast offload for GGUF libraries when a full dock is overkill.
+- UK readers: [UGREEN on Amazon.co.uk](/go/ugreen-mac-mini-dock-uk/) (placeholder — Associates tag lands after UK approval).
+
+Disclosure: as an Amazon Associate I earn from qualifying purchases. See [/disclosure/](/disclosure/).

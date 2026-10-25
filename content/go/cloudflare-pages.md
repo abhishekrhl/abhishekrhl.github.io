@@ -5,8 +5,8 @@ url: "/go/cloudflare-pages/"
 type: "go"
 layout: "redirect"
 robots: "noindex, nofollow"
-redirect_to: "https://developers.cloudflare.com/pages"
-note: "static hosting and redirects"
+redirect_to: "https://docs.github.com/en/pages"
+note: "RETIRED host path — now GitHub Pages; old /go/cloudflare-pages kept for back-compat"
 ---
 
-If you are not redirected, [continue here](https://developers.cloudflare.com/pages).
+If you are not redirected, [continue here](https://docs.github.com/en/pages).

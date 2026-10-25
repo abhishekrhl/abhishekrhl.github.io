@@ -51,7 +51,7 @@ Near product recommendations or `/go/` short links that resolve to Amazon:
 | India | Amazon.in Associates | Site statement above + ASCI-friendly labels on commercial posts |
 | United Kingdom | Amazon.co.uk Associates | Site statement above + ASA-clear labelling |
 
-[PLACEHOLDER: Associates store IDs / tracking IDs — fill only after approval; never invent.]
+Amazon.in Associates tracking ID in use: **abhishekrhl-21**. Amazon.co.uk Associates: pending (placeholder product URLs only — no UK tag until approved).
 
 ---
 

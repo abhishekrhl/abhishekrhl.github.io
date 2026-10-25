@@ -6,7 +6,7 @@ type: "go"
 layout: "redirect"
 robots: "noindex, nofollow"
 redirect_to: "https://github.com/ggerganov/llama.cpp"
-note: "local GGML/GGUF inference"
+note: "GGUF inference — editorial"
 ---
 
 If you are not redirected, [continue here](https://github.com/ggerganov/llama.cpp).
