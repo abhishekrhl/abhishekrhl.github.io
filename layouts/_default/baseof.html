@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.55;max-width:42rem;margin:1.5rem auto;padding:0 1rem;color:#1a1a1a}
+header nav a{margin-right:1rem}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.9rem;color:#444}
+a{color:#0b57d0}
+</style>
+</head>
+<body>
+<header>
+  <h1><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
+  <nav>
+    {{ range .Site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
+  </nav>
+</header>
+<main>{{ block "main" . }}{{ end }}</main>
+<footer>
+  {{ if .Site.Params.showAffiliateDisclosure }}
+  <p>{{ .Site.Params.affiliateDisclosure }}</p>
+  {{ end }}
+  <p><a href="{{ "/disclosure/" | relURL }}">Disclosure</a> · <a href="{{ "/privacy/" | relURL }}">Privacy</a></p>
+</footer>
+</body>
+</html>

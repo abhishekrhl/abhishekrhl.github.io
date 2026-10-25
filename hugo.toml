@@ -1,0 +1,29 @@
+baseURL = "https://abhishekrhl.github.io/"
+languageCode = "en-gb"
+title = "Local AI Writing Desk"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "Local AI on Apple silicon — practical notes, affiliate-disclosed recommendations."
+  affiliateDisclosure = "As an Amazon Associate I earn from qualifying purchases. Some links are affiliate links — I may earn a commission at no extra cost to you. See /disclosure/."
+  showAffiliateDisclosure = true
+  analyticsProvider = ""
+  analyticsSiteId = ""
+
+[permalinks]
+  posts = "/posts/:slug/"
+  go = "/go/:slug/"
+
+[[menu.main]]
+  name = "Disclosure"
+  url = "/disclosure/"
+  weight = 90
+
+[[menu.main]]
+  name = "Privacy"
+  url = "/privacy/"
+  weight = 91
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"

@@ -1,0 +1,8 @@
+slug,url,note
+apple-silicon,https://en.wikipedia.org/wiki/Apple_silicon,hardware overview
+ollama,https://github.com/ollama/ollama,local LLM runner
+mlx-audio,https://github.com/Blaizzy/mlx-audio,on-device TTS
+cloudflare-pages,https://developers.cloudflare.com/pages,static hosting and redirects
+hugo,https://gohugo.io/documentation,static site generator
+open-webui,https://github.com/open-webui/open-webui,local chat UI for Ollama
+llama-cpp,https://github.com/ggerganov/llama.cpp,local GGML/GGUF inference
