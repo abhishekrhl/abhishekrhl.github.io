@@ -64,3 +64,8 @@ If model files and drafts are fighting the internal SSD, external NVMe via a Mac
 - UK readers: [UGREEN on Amazon.co.uk](/go/ugreen-mac-mini-dock-uk/) (placeholder — Associates tag lands after UK approval).
 
 Disclosure: as an Amazon Associate I earn from qualifying purchases. See [/disclosure/](/disclosure/).
+
+
+---
+
+**Buying hardware?** See the flagship guide: [Best Mac mini for local LLMs](/posts/best-mac-mini-for-local-llms/) (RAM × model matrix + disclosed price CTAs).
