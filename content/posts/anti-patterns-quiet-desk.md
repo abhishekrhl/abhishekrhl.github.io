@@ -3,36 +3,84 @@ title: "Anti-patterns on a quiet desk — night renders, thermal thrash, and wha
 date: 2026-10-25T23:15:20+05:30
 draft: false
 slug: "anti-patterns-quiet-desk"
-tags: ["local-ai", "anti-patterns", "freqtrade"]
-description: "Practical local-AI notes for a 16 GB Apple silicon Mac mini — affiliate links disclosed."
+tags: ["local-ai", "anti-patterns", "freqtrade", "16gb"]
+description: "Quiet-desk anti-patterns on a 16 GB Mac mini: overlapping Ollama and overnight video, swap thrash, and why local AI never writes trading or medical advice."
 ---
 
 > **Affiliate disclosure:** Some links are affiliate links. As an Amazon Associate I earn from qualifying purchases. See [Disclosure](/disclosure/).
 
-Early mornings suit high-throughput rendering where latency doesn't matter. Video encoding and batch processing belong here; they tolerate delay without disrupting workflow. Prose generation for local models needs low-latency inference, not brute-force throughput. Running complex language models during these hours often causes resource contention if the hardware is already stressed by background tasks.
+The fastest way to ruin a 16 GB local-AI desk is to run the wrong job at the wrong hour. Overnight video wants throughput. Drafting wants low latency. Freqtrade `dry_run` wants a calm machine. Stack them and you get thermal thrash, swap, and drafts that feel “busy” while producing nothing useful.
 
-Distinguish between throughput-heavy video encoding and latency-sensitive text drafting. Avoid scheduling heavy model loads during rendering windows. Prioritise interactive responsiveness over raw throughput for local inference engines. Ollama (/go/ollama) acts as the primary orchestrator, ensuring inference requests don't conflict with high-priority rendering queues. Managing the scheduler prevents thermal thrashing from overlapping workloads.
+These are the anti-patterns I treat as hard stops — not style tips.
 
-Recognising memory overcommitment is critical for stability. Local hardware has finite resources; pushing beyond limits causes unstable performance rather than speed gains. The main indicator is swap usage: when physical RAM exhausts, the system offloads data to disk, dropping inference speed dramatically. This manifests as stalled drafts where sentences take seconds or minutes to appear, breaking the user flow.
+## Anti-pattern 1: Prose beside a night render
 
-Thermal management also dictates performance. When processors hit thermal throttling limits, clock speeds drop to prevent damage, causing inconsistent generation rates. Fans spinning at max capacity while output slows is a clear signal of "thermal thrash"—the workload exceeds the hardware's sustainable envelope. Identify swap usage as a primary symptom of memory exhaustion. Monitor fan curves and temperature logs before they become critical failures.
+LTX / heavy encodes belong in the 01:00–06:30 IST window only. If fans are already loud from a render queue, do not start [Ollama](/go/ollama/) for a long write. Token latency collapses once unified memory is contested, and you will “fix” the draft in the morning with garbage mid-sentence cuts.
 
-The danger lies in mistaking slowness for progress. A heavily swapping system appears active but merely shuffles data between volatile and non-volatile storage. Token generation rates plummet while the user stares at a blinking cursor, unaware the machine struggles to keep its memory map coherent. Increasing model size further exacerbates this, forcing the system deeper into swap territory and worsening thermal conditions.
+Fix: separate lanes. See [overnight windows](/posts/overnight-windows-quiet-desks/) and [LaunchAgents schedule](/posts/launchagents-quiet-desk-schedule/).
 
-Specific hardware configurations show different stress patterns. Apple Silicon (/go/apple-silicon) devices manage power and heat via dynamic architecture, often masking early stress until performance degrades abruptly. Traditional x86 systems may show gradual fan ramping but suffer the same fundamental bottleneck once RAM is fully utilised. Understanding your machine's specific thermal profile is essential before running large context windows or complex models overnight.
+## Anti-pattern 2: Two heavy models at once
 
-Deciding to run a model locally requires considering worst-case resource contention. If the system renders video in the background while drafting text, both workloads compete for bandwidth and thermal headroom. The result is a compromised experience: neither task completes efficiently, leaving half-finished video files and drafts requiring significant manual correction due to instability.
+“Just one more chat UI” is how a second runner appears in `ollama ps`. On 16 GB that usually means swap. Swap looks like activity and feels like progress; it is neither.
 
-Dry_run environments test strategies against historical or simulated data. They must operate in isolation so external factors, like AI inference delays, don't influence outcomes. If a local model runs alongside a trading bot and consumes significant CPU or RAM, the trading system may miss critical market movements. That lag turns a profitable strategy into a losing one simply because the machine was busy writing an email instead of executing a trade.
+Fix: one model while drafting. Park Open WebUI experiments in their own session — [Open WebUI beside Ollama](/posts/open-webui-llama-cpp-beside-ollama/). Prefer [llama.cpp](/go/llama-cpp/) alone when pulling a heavier GGUF; never beside a night render.
 
-Disclosure and human rewrite form the final guardrail. Local AI should never generate financial advice, medical diagnoses, or legal counsel without rigorous oversight. The technology is for drafting, not making liable decisions. A model might confidently state a medical condition or predict a stock price yet be entirely wrong due to training biases or hallucinations.
+## Anti-pattern 3: Mistaking thrash for throughput
 
-Never use local AI for trading or medical advice. These domains require precision current models cannot guarantee. The risk of harm is too high to delegate decisions entirely to an algorithm. Even a well-tuned model can produce plausible-sounding lies. In finance, false predictions cost money; in medicine, false diagnoses cost health. Local AI excels at creative writing, summarisation, and code assistance but must stop short of authoritative decision-making in high-stakes fields.
+Signals:
 
-When a draft leaves the desk, Hugo (/go/hugo) should build the static site in its own quiet window—not while a night render or heavy model load thrashes the fans.
+- Memory pressure in Activity Monitor while generation stalls
+- Fans pinned while tokens drip
+- Hugo builds taking many times longer than a cold idle build
 
-Keep voiceovers light: mlx-audio (/go/mlx-audio) TTS belongs in short daytime passes, not stacked on overnight video jobs or concurrent GGUF loads.
+If you see those, unload models and finish the competing job. Do not raise context length to “push through”.
 
-If pulling a heavier GGUF via llama.cpp (/go/llama-cpp), do it alone—never beside a night render queue or a second Ollama context fighting for the same 16 GB unified memory. (source: redirect slug allow-list from links.csv)
+## Anti-pattern 4: Letting local AI near money or medicine
 
-Understand the difference between throughput and latency. Monitor hardware limits and respect them. Enforce separation between financial logic and generative text. Mandate a final human review before content leaves the machine. These aren't suggestions; they are foundations of safe, effective local AI practice.
+This desk drafts technical posts. It does not:
+
+- Give trading advice or override Freqtrade logic
+- Diagnose medical conditions
+- Offer legal counsel
+
+Dry_run trading stays isolated so inference latency cannot invent a “missed fill” story. Human rewrite is mandatory before any public paste that could be read as advice.
+
+## Anti-pattern 5: Invented affiliate paths
+
+A `/go/cool-dock/` that is not in `links.csv` is a broken promise. On GitHub Pages that is a 404 or a silent miss — either way the disclosure is empty for that click.
+
+Fix: allow-list only — [affiliate allow-list hygiene](/posts/affiliate-allow-list-hygiene/). Placeholders for UK Associates are fine; invented ASINs are not.
+
+## Anti-pattern 6: Voice and video on top of a hot writer
+
+[mlx-audio](/go/mlx-audio/) TTS is for short daytime passes after the prose gate. Do not stack voice, GGUF load, and overnight video. Sequence: edit text → claims QA → then audio.
+
+## Anti-pattern 7: Publishing without a human gate
+
+Local models are fluent. Fluency is not accuracy. Run deslop + claims extraction; keep auto-publish behind a score threshold. The [writing kit pack](/posts/from-desk-to-pack-writing-kit/) exists so volume never outruns trust.
+
+## What “never” means on this hardware
+
+| Never | Why |
+|-------|-----|
+| Kill Freqtrade `dry_run` to free RAM for blogging | Paper trading isolation is the point |
+| Start LTX outside 01:00–06:30 IST for convenience | Contends with prose and sleep |
+| Ship fake reviews or sockpuppet promo | Burns the only asset that converts: trust |
+| Put Amazon Special Links inside ebook PDFs | Policy / disclosure risk; use web `/go/` only |
+
+Quiet is a schedule with teeth. Break the anti-patterns and the desk becomes a noisy hobby machine; keep them and the same 16 GB box ships honest posts readers finish.
+
+When Hugo builds, give it its own quiet window — not a fight with [Apple silicon](/go/apple-silicon/) thermals already deep in a render.
+
+---
+
+## Desk gear that actually helps a 16 GB Mac mini (affiliate)
+
+If model files and drafts are fighting the internal SSD, external NVMe via a Mac mini dock is the practical upgrade — not a bigger cloud bill.
+
+- [UGREEN Mac mini dock with NVMe slot](/go/ugreen-mac-mini-dock/) (affiliate) — ports + model-library drive in one stand.
+- [Satechi Mac mini hub & stand](/go/satechi-mac-mini-hub/) (affiliate) — design-matched alternative.
+- [Samsung T7 Shield portable SSD](/go/samsung-t7-shield/) (affiliate) — fast offload for GGUF libraries when a full dock is overkill.
+- UK readers: [UGREEN on Amazon.co.uk](/go/ugreen-mac-mini-dock-uk/) (placeholder — Associates tag lands after UK approval).
+
+Disclosure: as an Amazon Associate I earn from qualifying purchases. See [/disclosure/](/disclosure/).
