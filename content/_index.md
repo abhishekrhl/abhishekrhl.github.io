@@ -5,6 +5,8 @@ Practical notes on running **local AI writing workflows** on Apple silicon (16 G
 
 Affiliate links use `/go/<slug>/` short redirects and are disclosed — see [Disclosure](/disclosure/). Amazon.co.uk tags are placeholders until Associates approval.
 
+**Free download:** the [Quiet Local AI Desk checklist](/go/checklist/) — a printable version of this setup, free on Payhip (my own store; not an affiliate link, no payment required).
+
 ## Featured buyer guide
 
 **[Best Mac mini for local LLMs](/posts/best-mac-mini-for-local-llms/)** — RAM × model matrix, 16 GB vs 24 GB vs Pro configs, honest limits, and disclosed “See today’s price” CTAs via `/go/`.

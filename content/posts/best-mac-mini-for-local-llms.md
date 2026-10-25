@@ -101,3 +101,7 @@ For readers in the United Kingdom: Amazon.co.uk Associates tags are pending (TOD
 **UK (TODO_UK placeholders):** [16 GB](/go/mac-mini-m4-16gb-uk/) · [24 GB](/go/mac-mini-m4-24gb-uk/) · [32 GB](/go/mac-mini-m4-32gb-uk/) · [M4 Pro 48 GB](/go/mac-mini-m4-pro-48gb-uk/) · [M4 Pro 64 GB](/go/mac-mini-m4-pro-64gb-uk/)
 
 **See today's price:** [24 GB](/go/mac-mini-m4-24gb/) · [32 GB](/go/mac-mini-m4-32gb/) · [M4 Pro 48 GB](/go/mac-mini-m4-pro-48gb/) · [M4 Pro 64 GB](/go/mac-mini-m4-pro-64gb/) (affiliate) · expand storage: [UGREEN dock](/go/ugreen-mac-mini-dock/) · [Satechi hub](/go/satechi-mac-mini-hub/) · [T7 Shield](/go/samsung-t7-shield/)
+
+---
+
+**Free download:** the [Quiet Local AI Desk checklist](/go/checklist/) — a printable version of this setup, free on Payhip (my own store; not an affiliate link, no payment required).

@@ -69,3 +69,7 @@ Disclosure: as an Amazon Associate I earn from qualifying purchases. See [/discl
 ---
 
 **Buying hardware?** See the flagship guide: [Best Mac mini for local LLMs](/posts/best-mac-mini-for-local-llms/) (RAM × model matrix + disclosed price CTAs).
+
+---
+
+**Free download:** the [Quiet Local AI Desk checklist](/go/checklist/) — a printable version of this setup, free on Payhip (my own store; not an affiliate link, no payment required).
