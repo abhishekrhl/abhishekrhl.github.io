@@ -61,3 +61,5 @@ Disclosure: as an Amazon Associate I earn from qualifying purchases. See [/discl
 ---
 
 **Buying hardware?** See the flagship guide: [Best Mac mini for local LLMs](/posts/best-mac-mini-for-local-llms/) (RAM × model matrix + disclosed price CTAs).
+
+**Related:** [Quiet desk checklist for 16 GB](/posts/quiet-desk-checklist-16gb/) · [Anti-patterns on a quiet desk](/posts/anti-patterns-quiet-desk/) · [llama.cpp quant choices on 16 GB](/posts/llama-cpp-quant-choices-16gb/)

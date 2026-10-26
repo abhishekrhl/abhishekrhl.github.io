@@ -68,6 +68,8 @@ Disclosure: as an Amazon Associate I earn from qualifying purchases. See [/discl
 
 ---
 
+**Related:** [llama.cpp quant choices on 16 GB](/posts/llama-cpp-quant-choices-16gb/) · [Open WebUI beside Ollama](/posts/open-webui-llama-cpp-beside-ollama/) · [LaunchAgents and the quiet desk schedule](/posts/launchagents-quiet-desk-schedule/)
+
 **Buying hardware?** See the flagship guide: [Best Mac mini for local LLMs](/posts/best-mac-mini-for-local-llms/) (RAM × model matrix + disclosed price CTAs).
 
 ---
