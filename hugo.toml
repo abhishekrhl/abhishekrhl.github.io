@@ -3,6 +3,10 @@ languageCode = "en-gb"
 title = "Quiet Local AI Desk"
 disableKinds = ["taxonomy", "term"]
 
+[minify]
+  [minify.tdewolff.html]
+    keepQuotes = true
+
 [params]
   description = "Local AI on Apple silicon — practical notes, affiliate-disclosed recommendations."
   affiliateDisclosure = "As an Amazon Associate I earn from qualifying purchases. Some links are affiliate links — I may earn a commission at no extra cost to you. See /disclosure/."
