@@ -52,7 +52,7 @@ If analytics is added later, this section will name the tool and what it stores.
 
 Until a tool is live:
 
-> This site does not run third-party analytics scripts.
+> When Google Analytics 4 (GA4) is enabled, the site loads Google's gtag.js and sends page-view / usage events to Google. IP anonymization follows GA4 defaults. You can opt out with Google Analytics Opt-out Browser Add-on or by blocking the gtag script. Until `analyticsSiteId` is set in site config, no analytics script is served.
 
 When enabled, update this page **before** deploying the script, including:
 

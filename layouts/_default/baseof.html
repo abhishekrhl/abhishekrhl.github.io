@@ -12,6 +12,15 @@ header nav a{margin-right:1rem}
 footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.9rem;color:#444}
 a{color:#0b57d0}
 </style>
+{{ if and (eq .Site.Params.analyticsProvider "ga4") .Site.Params.analyticsSiteId }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.analyticsSiteId }}"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '{{ .Site.Params.analyticsSiteId }}');
+</script>
+{{ end }}
 </head>
 <body>
 <header>
