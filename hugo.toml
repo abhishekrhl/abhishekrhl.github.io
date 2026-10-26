@@ -1,6 +1,6 @@
 baseURL = "https://abhishekrhl.github.io/"
 languageCode = "en-gb"
-title = "Local AI Writing Desk"
+title = "Quiet Local AI Desk"
 disableKinds = ["taxonomy", "term"]
 
 [params]
