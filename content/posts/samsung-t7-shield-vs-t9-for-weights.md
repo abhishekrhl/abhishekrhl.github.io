@@ -1,17 +1,18 @@
 ---
-title: "samsung-t7-shield-vs-t9-for-weights"
+title: "Samsung T7 Shield vs T9 for LLM Weight Stores"
 date: 2026-10-26T11:44:00+05:30
 draft: false
 slug: "samsung-t7-shield-vs-t9-for-weights"
 tags: ["local-ai", "apple-silicon", "ollama"]
 description: "Buyer note: Samsung T7 Shield vs T9-class portables for LLM weight stores on a Mac mini desk — overflow vs hot library."
+affiliate: true
 ---
 
 > **Affiliate disclosure:** Some links are affiliate links. As an Amazon Associate I earn from qualifying purchases. See [Disclosure](/disclosure/). AI-assisted drafting runs on a local Ollama desk; a human still gates claims before public ship.
 
 Portable SSDs are the usual overflow lane for Ollama/GGUF libraries on a quiet Mac mini desk. This note compares **Samsung T7 Shield** (allow-listed) against **T9-class** portables (class only — no invented redirect) for weight stores: rugged pouch use vs marketing “faster” claims, without fake MB/s tables from your desk.
 
-Allow-list shopping stubs only: [Samsung T7 Shield](/go/samsung-t7-shield/), [UGREEN Mac mini dock](/go/ugreen-mac-mini-dock/) (Thunderbolt NVMe hot path), [RayCue dock](/go/raycue-mac-mini-dock/), [ACASIS dual NVMe](/go/acasis-dual-nvme/), [WD Black SN850X](/go/wd-black-sn850x/) for DIY bay, [Satechi hub](/go/satechi-mac-mini-hub/), [Anker USB-C hub](/go/anker-usb-c-hub/). There is **no** Samsung T9 slug on this site’s allow-list today — soft-cite the *class* and verify Amazon.in the week you buy; do not invent a new go-link for T9.
+Allow-list shopping stubs only: {{< aff slug="samsung-t7-shield" text="Samsung T7 Shield" >}}, {{< aff slug="ugreen-mac-mini-dock" text="UGREEN Mac mini dock" >}} (Thunderbolt NVMe hot path), {{< aff slug="raycue-mac-mini-dock" text="RayCue dock" >}}, {{< aff slug="acasis-dual-nvme" text="ACASIS dual NVMe" >}}, {{< aff slug="wd-black-sn850x" text="WD Black SN850X" >}} for DIY bay, {{< aff slug="satechi-mac-mini-hub" text="Satechi hub" >}}, {{< aff slug="anker-usb-c-hub" text="Anker USB-C hub" >}}. There is **no** Samsung T9 slug on this site’s allow-list today — soft-cite the *class* and verify Amazon.in the week you buy; do not invent a new go-link for T9.
 
 Related: [Dock vs T7 for models](/posts/mac-mini-dock-vs-t7-for-models/), [Best external SSD (UK)](/posts/best-external-ssd-for-ollama-models-uk/), [Best Mac mini accessories (2026)](/posts/best-mac-mini-accessories-local-ai-2026/), [UGREEN vs Satechi](/posts/ugreen-vs-satechi-dock-mac-mini-m4/), [M4 Pro vs base for GGUF](/posts/mac-mini-m4-pro-vs-base-for-gguf/), [16 GB vs 24 GB](/posts/mac-mini-m4-16gb-vs-24gb-local-llm/), [Best Mac mini for local LLMs](/posts/best-mac-mini-for-local-llms/).
 
@@ -25,24 +26,24 @@ Runners stay on Metal unified memory: [/go/ollama/](/go/ollama/), [/go/llama-cpp
 
 | Role | Prefer | Call |
 | :--- | :--- | :--- |
-| **Hot / active** model store (frequent swap) | Thunderbolt dock NVMe bay ([UGREEN](/go/ugreen-mac-mini-dock/), [RayCue](/go/raycue-mac-mini-dock/), [ACASIS](/go/acasis-dual-nvme/)) | **Go** as class after you time one full pull |
-| **Overflow / pouch / desk-to-desk** | [T7 Shield](/go/samsung-t7-shield/) | **Go** for portable; **Caution** as sole hot library |
+| **Hot / active** model store (frequent swap) | Thunderbolt dock NVMe bay ({{< aff slug="ugreen-mac-mini-dock" text="UGREEN" >}}, {{< aff slug="raycue-mac-mini-dock" text="RayCue" >}}, {{< aff slug="acasis-dual-nvme" text="ACASIS" >}}) | **Go** as class after you time one full pull |
+| **Overflow / pouch / desk-to-desk** | {{< aff slug="samsung-t7-shield" text="T7 Shield" >}} | **Go** for portable; **Caution** as sole hot library |
 | **T9-class portable** (higher marketing peak) | Soft-cite class only — no allow-list slug yet | **Caution** until you confirm cable, bus power, and one timed load on *your* mini |
-| **DIY NVMe in known enclosure** | [WD Black SN850X](/go/wd-black-sn850x/) | **Caution** until timed |
+| **DIY NVMe in known enclosure** | {{< aff slug="wd-black-sn850x" text="WD Black SN850X" >}} | **Caution** until timed |
 
 Deeper dock vs portable split: [dock vs T7](/posts/mac-mini-dock-vs-t7-for-models/). Accessories roundup: [2026 accessories](/posts/best-mac-mini-accessories-local-ai-2026/).
 
 ## T7 Shield: what the allow-list stub is for
 
-[Samsung T7 Shield](/go/samsung-t7-shield/) is the durable USB-C portable stub on this site. Operator uses that match a quiet local-AI desk:
+{{< aff slug="samsung-t7-shield" text="Samsung T7 Shield" >}} is the durable USB-C portable stub on this site. Operator uses that match a quiet local-AI desk:
 
 - **Overflow library** you do not want on the boot volume.
 - **Travel / backup** of model folders between machines.
 - **Cold archive** of quants you rarely open.
 
-Do **not** treat marketing peak MB/s as your load time. Soft cite only: [CITE:] Samsung published interface class the week you buy; [CITE:] one timed copy of a multi-GB GGUF into Ollama’s model store on *your* cable and port.
+Do **not** treat marketing peak MB/s as your load time. Soft cite only: Samsung published interface class the week you buy; one timed copy of a multi-GB GGUF into Ollama’s model store on *your* cable and port.
 
-Bus-powered quirks are real on some hubs — if a drive drops under sustained read, move it to a direct Mac mini port or a powered dock path ([UGREEN](/go/ugreen-mac-mini-dock/) / [Satechi](/go/satechi-mac-mini-hub/) class), then re-time. Soft claim; no invented amp numbers here. Extra HID ports if needed: [Anker](/go/anker-usb-c-hub/).
+Bus-powered quirks are real on some hubs — if a drive drops under sustained read, move it to a direct Mac mini port or a powered dock path ({{< aff slug="ugreen-mac-mini-dock" text="UGREEN" >}} / {{< aff slug="satechi-mac-mini-hub" text="Satechi" >}} class), then re-time. Soft claim; no invented amp numbers here. Extra HID ports if needed: {{< aff slug="anker-usb-c-hub" text="Anker" >}}.
 
 ## T9-class: when “faster portable” is worth shopping
 
@@ -52,7 +53,7 @@ T9-class portables advertise higher peak throughput (often USB4 / Thunderbolt-ad
 - You have confirmed the mini port / cable actually negotiates the faster mode — not a USB-C charge cable in disguise.
 - You accept that **peak brochure numbers ≠ your timed Ollama pull**.
 
-Until a T9 ASIN is added to `links.csv`, **do not** invent a go-link for it. Compare on Amazon.in yourself; keep CTAs on allow-listed [T7 Shield](/go/samsung-t7-shield/) and dock NVMe stubs. UK soft path for T7 class: related note [external SSD UK](/posts/best-external-ssd-for-ollama-models-uk/).
+Until a T9 ASIN is added to `links.csv`, **do not** invent a go-link for it. Compare on Amazon.in yourself; keep CTAs on allow-listed {{< aff slug="samsung-t7-shield" text="T7 Shield" >}} and dock NVMe stubs. UK soft path for T7 class: related note [external SSD UK](/posts/best-external-ssd-for-ollama-models-uk/).
 
 ## Operator checklist before you buy either portable
 
@@ -71,6 +72,10 @@ Until a T9 ASIN is added to `links.csv`, **do not** invent a go-link for it. Com
 ## Buyer order of operations
 
 1. Confirm models fit RAM first ([matrix](/posts/ram-model-matrix-16gb-ollama/)).
-2. Put the **active** store on dock NVMe when you can ([UGREEN](/go/ugreen-mac-mini-dock/) class).
-3. Keep [T7 Shield](/go/samsung-t7-shield/) for overflow / pouch; consider T9-class only after one timed pull proves the delta on your desk.
-4. Free checklist CTA: [/go/checklist/](/go/checklist/). Disclosure: [/disclosure/](/disclosure/).
+2. Put the **active** store on dock NVMe when you can ({{< aff slug="ugreen-mac-mini-dock" text="UGREEN" >}} class).
+3. Keep {{< aff slug="samsung-t7-shield" text="T7 Shield" >}} for overflow / pouch; consider T9-class only after one timed pull proves the delta on your desk.
+4. Free checklist CTA (own product): [/go/checklist/](/go/checklist/). Disclosure: [/disclosure/](/disclosure/).
+
+---
+
+*Affiliate links above are labelled **Ad**. Full commercial disclosure: [/disclosure/](/disclosure/).*

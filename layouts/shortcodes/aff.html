@@ -1,0 +1,3 @@
+{{/* Usage: {{< aff slug="kraken" text="Kraken" >}}  — renders an affiliate link with the required label.
+     ASA/CAP: affiliate links are ads; label them clearly and up front ("Ad"). */}}
+<a href="/go/{{ .Get "slug" }}" rel="sponsored nofollow noopener" target="_blank">{{ .Get "text" }}</a><sup class="ad-label" title="Affiliate link: I may earn commission">Ad</sup>

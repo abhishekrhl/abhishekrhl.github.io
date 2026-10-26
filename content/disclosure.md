@@ -1,6 +1,6 @@
 ---
 title: "Affiliate & commercial disclosure"
-date: 2026-10-25
+date: 2026-10-26
 draft: false
 slug: disclosure
 description: "How this site earns money — Amazon Associates, other affiliate programmes, and required UK/India disclosures."
@@ -8,9 +8,10 @@ description: "How this site earns money — Amazon Associates, other affiliate p
 
 # Affiliate & commercial disclosure
 
-**Last updated:** 25 October 2026 (Asia/Calcutta).  
-**Operator:** Abhishek Kumar — [PLACEHOLDER: legal / trading name if different].  
-**Site:** https://abhishekrhl.github.io/.
+**Last updated:** 26 October 2026 (Asia/Calcutta).  
+**Operator:** Abhishek Kumar  
+**Site:** https://abhishekrhl.github.io/ (Quiet Local AI Desk).  
+**Contact:** [abhishek.isi2008@gmail.com](mailto:abhishek.isi2008@gmail.com)
 
 This page explains material connections between this site and merchants. It is intended to meet expectations under:
 
@@ -18,13 +19,13 @@ This page explains material connections between this site and merchants. It is i
 - **India** — Advertising Standards Council of India (ASCI) influencer guidelines (prominent disclosure labels such as Advertisement / Ad / Sponsored / Affiliate where content is commercial communication).
 - **Amazon Associates** — Operating Agreement disclosure language for Amazon.in and Amazon.co.uk (and any other Amazon locale later enrolled).
 
-This is a **placeholder pack**. Replace bracketed fields before public launch. Do not invent bank, tax, or Associate IDs here.
+Contact for this site is email only.
 
 ---
 
 ## Plain-language summary
 
-Some links on this site are **affiliate links**. If you buy through them, I may earn a commission **at no extra cost to you**. I also sell (or will sell) my own digital products (e.g. ebook via Payhip). Opinions are my own; I do not accept payment to invent fake reviews or sockpuppet accounts.
+Some links on this site are **affiliate links**. If you buy through them, I may earn a commission **at no extra cost to you**. I also sell (or will sell) my own digital products (e.g. checklist / ebook via Payhip). Opinions are my own; I do not accept payment to invent fake reviews or sockpuppet accounts.
 
 ---
 
@@ -34,13 +35,13 @@ Some links on this site are **affiliate links**. If you buy through them, I may 
 
 > As an Amazon Associate I earn from qualifying purchases.
 
-This statement applies to **Amazon.in** and **Amazon.co.uk** once both programmes are approved. Until approval, Amazon product mentions must **not** use tracked Associate tags.
+This statement applies to **Amazon.in** (approved tracking ID in use) and to **Amazon.co.uk** once that programme is approved. Until UK approval, Amazon.co.uk product mentions must **not** use tracked Associate tags.
 
 ### Additional clear & conspicuous labelling
 
 Near product recommendations or `/go/` short links that resolve to Amazon:
 
-- Use a short label such as **(affiliate)**, **#Affiliate**, or **(paid link)** next to the link or in the same paragraph.
+- Use a short label such as **Ad**, **#ad**, **(affiliate)**, or **(paid link)** next to the link or in the same paragraph.
 - Do not bury disclosure only in a footer or “About” page — the footer supplements, it does not replace, near-link disclosure.
 - For social clips / Shorts / Reels that mention Amazon products, put the disclosure **upfront** (caption start or on-screen label), not only at the end.
 
@@ -51,7 +52,7 @@ Near product recommendations or `/go/` short links that resolve to Amazon:
 | India | Amazon.in Associates | Site statement above + ASCI-friendly labels on commercial posts |
 | United Kingdom | Amazon.co.uk Associates | Site statement above + ASA-clear labelling |
 
-Amazon.in Associates tracking ID in use: **abhishekrhl-21**. Amazon.co.uk Associates: pending (placeholder product URLs only — no UK tag until approved).
+Amazon.in Associates tracking ID in use: **abhishekrhl-21**. Amazon.co.uk Associates: pending (untagged UK URLs only — no UK tag until approved).
 
 ---
 
@@ -59,17 +60,12 @@ Amazon.in Associates tracking ID in use: **abhishekrhl-21**. Amazon.co.uk Associ
 
 When enrolled, the same rule applies: **disclose the material connection** near the recommendation.
 
-Examples planned for this stack (enrolment pending — see `/workspace/signup-pack-2026-10-25.md`):
-
 | Programme / network | Typical products | Disclosure label examples |
 |---|---|---|
-| Payhip (own digital goods) | Ebook / courses | “I am the seller” / own-product notice |
-| Impact (e.g. Setapp / MacPaw) | Mac software subscriptions | Affiliate / Ad / Sponsored |
-| Hostinger affiliate | Hosting / VPS | Affiliate |
-| NordVPN affiliate | VPN plans | Affiliate |
-| Other Impact / partner brands | As listed in allow-list | Affiliate |
+| Payhip (own digital goods) | Free checklist / paid digital products | “I am the seller” / own-product notice |
+| Other networks (Impact, etc.) | Mac / OSS / creator tools when enrolled | Ad / Affiliate / Sponsored |
 
-Only link via `/go/<slug>` entries that exist in `links.csv` (allow-list). Do not invent short links or ASINs.
+Only link via `/go/<slug>` entries that exist in the site allow-list. Do not invent short links or ASINs.
 
 ---
 
@@ -77,10 +73,8 @@ Only link via `/go/<slug>` entries that exist in `links.csv` (allow-list). Do no
 
 - Affiliate content is advertising when there is a commercial relationship.
 - Labelling must be **clear and upfront** so an average consumer understands there is a commercial interest before they engage.
-- “Affiliate link”, “I may earn a commission”, or equivalent is usually clearer than vague “partner” alone.
+- “Ad”, “affiliate link”, or “I may earn a commission” is usually clearer than vague “partner” alone.
 - Do not imply independent testing you did not perform.
-
-[PLACEHOLDER: confirm with current ASA CAP guidance before launch if UK traffic is material.]
 
 ---
 
@@ -92,15 +86,13 @@ When a post is commercial communication (paid, free product, discounted access, 
 - Do not hide the label in a pile of hashtags or behind a “more” fold.
 - Editorial posts with **no** material connection do not need an ad label — but affiliate links create a material connection.
 
-[PLACEHOLDER: re-check ASCI label list before launch — list is updated periodically.]
-
 ---
 
-## Own products (Payhip first)
+## Own products (Payhip)
 
-Digital products sold via Payhip (Free tier first) are **my own**. Pages that sell or strongly promote them should say so plainly, e.g.:
+Digital products sold via Payhip are **my own**. Pages that sell or strongly promote them should say so plainly, e.g.:
 
-> This ebook is written and sold by me. Purchases go to my Payhip checkout.
+> This product is written and sold by me. Purchases go to my Payhip checkout.
 
 No sockpuppet reviews. No fake “customer” testimonials.
 
@@ -108,18 +100,18 @@ No sockpuppet reviews. No fake “customer” testimonials.
 
 ## Synthetic / AI-assisted media
 
-Where audio or video uses synthetic voice (e.g. Kokoro / local TTS), label that separately in the content or footer (platform rules + honesty). That is **in addition to** affiliate disclosure, not a substitute.
+Where audio or video uses synthetic voice (e.g. local TTS), label that separately in the content or footer. That is **in addition to** affiliate disclosure, not a substitute.
 
 ---
 
 ## How short links work
 
-Tracked or curated outbound links use paths like `/go/<slug>/`. On GitHub Pages these are static HTML redirect pages generated from `links.csv` (GitHub Pages does **not** process Cloudflare `_redirects`). The destination may be an affiliate URL once programmes are live.
+Tracked or curated outbound links use paths like `/go/<slug>/`. On GitHub Pages these are static HTML redirect pages generated from `links.csv` (GitHub Pages does **not** process Cloudflare `_redirects`). The destination may be an affiliate URL.
 
 ---
 
 ## Contact
 
-Questions about disclosures: [PLACEHOLDER: contact email].
+Questions about disclosures: [abhishek.isi2008@gmail.com](mailto:abhishek.isi2008@gmail.com).
 
 This page will be updated when programmes are approved, when analytics is added, or when disclosure rules change.
