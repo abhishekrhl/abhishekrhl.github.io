@@ -6,7 +6,7 @@ type: "go"
 layout: "redirect"
 robots: "noindex, nofollow"
 redirect_to: "https://www.amazon.in/s?k=Logitech+MX+Master+3S+for+Mac&tag=abhishekrhl-21"
-note: "TODO_IN: MX Master Mac search stub"
+note: "Amazon.in search (no exact ASIN verified) — tagged"
 ---
 
 If you are not redirected, [continue here](https://www.amazon.in/s?k=Logitech+MX+Master+3S+for+Mac&tag=abhishekrhl-21).

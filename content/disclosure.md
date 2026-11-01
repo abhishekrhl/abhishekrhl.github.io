@@ -35,7 +35,7 @@ Some links on this site are **affiliate links**. If you buy through them, I may 
 
 > As an Amazon Associate I earn from qualifying purchases.
 
-This statement applies to **Amazon.in** (approved tracking ID in use) and to **Amazon.co.uk** once that programme is approved. Until UK approval, Amazon.co.uk product mentions must **not** use tracked Associate tags.
+This statement applies to **Amazon.in** (tracking ID `abhishekrhl-21`) and **Amazon.co.uk** (tracking ID `mstejuv-21`). Product boxes show an India and a UK button; each goes to that store with its own tag.
 
 ### Additional clear & conspicuous labelling
 

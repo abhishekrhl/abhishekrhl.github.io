@@ -1,0 +1,5 @@
+{{/* Usage: partial "amazon-buttons.html" (dict "slug" "samsung-t7-shield" "site" site)
+     India button -> /go/<slug>/ (Amazon.in, tag amazonTagIN); UK button -> /go/<slug>-uk/ (Amazon.co.uk, tag amazonTagUK) when that page exists. */}}
+{{ $s := .slug }}{{ $in := site.GetPage (printf "/go/%s" $s) }}{{ $uk := site.GetPage (printf "/go/%s-uk" $s) }}
+{{ with $in }}<a class="amz-btn" href="/go/{{ $s }}/" rel="sponsored nofollow noopener" target="_blank">🇮🇳 Amazon.in</a>{{ end }}
+{{ with $uk }}<a class="amz-btn" href="/go/{{ $s }}-uk/" rel="sponsored nofollow noopener" target="_blank">🇬🇧 Amazon.co.uk</a>{{ end }}

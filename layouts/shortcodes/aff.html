@@ -1,3 +1,4 @@
-{{/* Usage: {{< aff slug="kraken" text="Kraken" >}}  — renders an affiliate link with the required label.
-     ASA/CAP: affiliate links are ads; label them clearly and up front ("Ad"). */}}
-<a href="/go/{{ .Get "slug" }}" rel="sponsored nofollow noopener" target="_blank">{{ .Get "text" }}</a><sup class="ad-label" title="Affiliate link: I may earn commission">Ad</sup>
+{{/* Usage: {{< aff slug="samsung-t7-shield" text="Samsung T7 Shield" >}}  — affiliate link with "Ad" label.
+     If /go/<slug>-uk/ exists, a UK link is added beside the India link. ASA/CAP: label ads up front. */}}
+{{- $s := .Get "slug" -}}
+<a href="/go/{{ $s }}/" rel="sponsored nofollow noopener" target="_blank">{{ .Get "text" }}</a><sup class="ad-label" title="Affiliate link: I may earn commission">Ad</sup>{{ with site.GetPage (printf "/go/%s-uk" $s) }} <small>(<a href="/go/{{ $s }}-uk/" rel="sponsored nofollow noopener" target="_blank">UK</a>)</small>{{ end }}

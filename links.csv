@@ -7,28 +7,34 @@ open-webui,https://github.com/open-webui/open-webui,local chat UI — editorial
 llama-cpp,https://github.com/ggerganov/llama.cpp,GGUF inference — editorial
 github-pages,https://docs.github.com/en/pages,static hosting on GitHub Pages — editorial (site host)
 cloudflare-pages,https://docs.github.com/en/pages,RETIRED host path — now GitHub Pages; old /go/cloudflare-pages kept for back-compat
-ugreen-mac-mini-dock,https://www.amazon.in/dp/B0DSJ5ZH8F?tag=abhishekrhl-21,Amazon.in UGREEN Mac mini dock+NVMe — tag=abhishekrhl-21
-satechi-mac-mini-hub,https://www.amazon.in/dp/B0DV6WJ88D?tag=abhishekrhl-21,Amazon.in Satechi Mac mini hub — tag=abhishekrhl-21; verify stock
-raycue-mac-mini-dock,https://www.amazon.in/dp/B0DT5LKD93?tag=abhishekrhl-21,Amazon.in RayCue Mac mini dock — tag=abhishekrhl-21
-acasis-dual-nvme,https://www.amazon.in/dp/B0FF4D1282?tag=abhishekrhl-21,Amazon.in ACASIS dual-bay NVMe — tag=abhishekrhl-21
-hagibis-mac-mini-hub,https://www.amazon.in/dp/B0DP8ZX7K8?tag=abhishekrhl-21,Amazon.in Hagibis Mac mini hub — tag=abhishekrhl-21
-samsung-t7-shield,https://www.amazon.in/s?k=Samsung+T7+Shield+2TB&tag=abhishekrhl-21,TODO_IN: confirm ASIN then swap to /dp/ — search stub with tag
-anker-usb-c-hub,https://www.amazon.in/s?k=Anker+555+USB-C+Hub&tag=abhishekrhl-21,TODO_IN: Anker hub search stub
-logitech-mx-master-3s-mac,https://www.amazon.in/s?k=Logitech+MX+Master+3S+for+Mac&tag=abhishekrhl-21,TODO_IN: MX Master Mac search stub
-keychron-k2-mac,https://www.amazon.in/s?k=Keychron+K2+Mac&tag=abhishekrhl-21,TODO_IN: Keychron Mac layout search stub
-wd-black-sn850x,https://www.amazon.in/s?k=WD+Black+SN850X+2TB&tag=abhishekrhl-21,TODO_IN: NVMe for DIY enclosure
-ugreen-mac-mini-dock-uk,https://www.amazon.co.uk/dp/B0DSJ5ZH8F,TODO_UK: plain ASIN URL — add Associates tag when UK approved
-satechi-mac-mini-hub-uk,https://www.amazon.co.uk/dp/B0DV6WJ88D,TODO_UK: plain ASIN URL
-samsung-t7-shield-uk,https://www.amazon.co.uk/s?k=Samsung+T7+Shield+2TB,TODO_UK: search stub — no tag
-anker-usb-c-hub-uk,https://www.amazon.co.uk/s?k=Anker+555+USB-C+Hub,TODO_UK: search stub — no tag
-mac-mini-m4-16gb,https://www.amazon.in/s?k=Mac+mini+M4+16GB&tag=abhishekrhl-21,"TODO_IN: Mac mini M4 16GB search stub — confirm ASIN → /dp/"
-mac-mini-m4-24gb,https://www.amazon.in/s?k=Mac+mini+M4+24GB&tag=abhishekrhl-21,"TODO_IN: Mac mini M4 24GB search stub — confirm ASIN → /dp/"
-mac-mini-m4-32gb,https://www.amazon.in/s?k=Mac+mini+M4+32GB&tag=abhishekrhl-21,"TODO_IN: Mac mini M4 32GB search stub — confirm ASIN → /dp/"
-mac-mini-m4-pro-48gb,https://www.amazon.in/s?k=Mac+mini+M4+Pro+48GB&tag=abhishekrhl-21,"TODO_IN: Mac mini M4 Pro 48GB search stub — confirm ASIN → /dp/"
-mac-mini-m4-pro-64gb,https://www.amazon.in/s?k=Mac+mini+M4+Pro+64GB&tag=abhishekrhl-21,"TODO_IN: Mac mini M4 Pro 64GB search stub — confirm ASIN → /dp/"
-mac-mini-m4-16gb-uk,https://www.amazon.co.uk/s?k=Mac+mini+M4+16GB,"TODO_UK: search stub — add Associates tag when UK approved"
-mac-mini-m4-24gb-uk,https://www.amazon.co.uk/s?k=Mac+mini+M4+24GB,"TODO_UK: search stub — add Associates tag when UK approved"
-mac-mini-m4-32gb-uk,https://www.amazon.co.uk/s?k=Mac+mini+M4+32GB,"TODO_UK: search stub — add Associates tag when UK approved"
-mac-mini-m4-pro-48gb-uk,https://www.amazon.co.uk/s?k=Mac+mini+M4+Pro+48GB,"TODO_UK: search stub — add Associates tag when UK approved"
-mac-mini-m4-pro-64gb-uk,https://www.amazon.co.uk/s?k=Mac+mini+M4+Pro+64GB,"TODO_UK: search stub — add Associates tag when UK approved"
+ugreen-mac-mini-dock,https://www.amazon.in/dp/B0DSJ5ZH8F?tag=abhishekrhl-21,Amazon.in UGREEN Mac mini dock+NVMe — dp verified 2026-11-01
+satechi-mac-mini-hub,https://www.amazon.in/dp/B0DV6WJ88D?tag=abhishekrhl-21,Amazon.in Satechi Mac mini hub — dp verified 2026-11-01
+raycue-mac-mini-dock,https://www.amazon.in/dp/B0DT5LKD93?tag=abhishekrhl-21,Amazon.in RayCue Mac mini dock — dp verified 2026-11-01
+acasis-dual-nvme,https://www.amazon.in/dp/B0FF4D1282?tag=abhishekrhl-21,Amazon.in ACASIS dual-bay NVMe dock — dp verified 2026-11-01
+hagibis-mac-mini-hub,https://www.amazon.in/dp/B0DP8ZX7K8?tag=abhishekrhl-21,Amazon.in Hagibis Mac mini hub — dp verified 2026-11-01
+samsung-t7-shield,https://www.amazon.in/dp/B0HD7NF8NQ?tag=abhishekrhl-21,Amazon.in Samsung T7 Shield 2TB — dp verified 2026-11-01
+anker-usb-c-hub,https://www.amazon.in/s?k=Anker+555+USB-C+Hub&tag=abhishekrhl-21,Amazon.in search (no exact ASIN verified) — tagged
+logitech-mx-master-3s-mac,https://www.amazon.in/s?k=Logitech+MX+Master+3S+for+Mac&tag=abhishekrhl-21,Amazon.in search (no exact ASIN verified) — tagged
+keychron-k2-mac,https://www.amazon.in/dp/B07QBPDWLS?tag=abhishekrhl-21,Amazon.in Keychron K2 (Brown) — dp verified 2026-11-01
+wd-black-sn850x,https://www.amazon.in/dp/B0B7CKVCCV?tag=abhishekrhl-21,Amazon.in WD Black SN850X (listing page; capacity selectable) — dp verified 2026-11-01
+ugreen-mac-mini-dock-uk,https://www.amazon.co.uk/dp/B0DSJ5ZH8F?tag=mstejuv-21,Amazon.co.uk UGREEN Mac mini dock — dp verified 2026-11-01
+satechi-mac-mini-hub-uk,https://www.amazon.co.uk/dp/B0DV6WJ88D?tag=mstejuv-21,Amazon.co.uk Satechi Mac mini hub — dp verified 2026-11-01
+samsung-t7-shield-uk,https://www.amazon.co.uk/s?k=Samsung+T7+Shield+2TB&tag=mstejuv-21,Amazon.co.uk search (IN ASIN not on UK) — tagged
+anker-usb-c-hub-uk,https://www.amazon.co.uk/s?k=Anker+555+USB-C+Hub&tag=mstejuv-21,Amazon.co.uk search — tagged
+mac-mini-m4-16gb,https://www.amazon.in/s?k=Mac+mini+M4+16GB&tag=abhishekrhl-21,Amazon.in search (M4 config ASIN not verified) — tagged
+mac-mini-m4-24gb,https://www.amazon.in/s?k=Mac+mini+M4+24GB&tag=abhishekrhl-21,Amazon.in search (M4 config ASIN not verified) — tagged
+mac-mini-m4-32gb,https://www.amazon.in/s?k=Mac+mini+M4+32GB&tag=abhishekrhl-21,Amazon.in search (M4 config ASIN not verified) — tagged
+mac-mini-m4-pro-48gb,https://www.amazon.in/s?k=Mac+mini+M4+PRO+48GB&tag=abhishekrhl-21,Amazon.in search (M4 config ASIN not verified) — tagged
+mac-mini-m4-pro-64gb,https://www.amazon.in/s?k=Mac+mini+M4+PRO+64GB&tag=abhishekrhl-21,Amazon.in search (M4 config ASIN not verified) — tagged
+mac-mini-m4-16gb-uk,https://www.amazon.co.uk/s?k=Mac+mini+M4+16GB&tag=mstejuv-21,Amazon.co.uk search (M4 config ASIN not verified) — tagged
+mac-mini-m4-24gb-uk,https://www.amazon.co.uk/s?k=Mac+mini+M4+24GB&tag=mstejuv-21,Amazon.co.uk search (M4 config ASIN not verified) — tagged
+mac-mini-m4-32gb-uk,https://www.amazon.co.uk/s?k=Mac+mini+M4+32GB&tag=mstejuv-21,Amazon.co.uk search (M4 config ASIN not verified) — tagged
+mac-mini-m4-pro-48gb-uk,https://www.amazon.co.uk/s?k=Mac+mini+M4+PRO+48GB&tag=mstejuv-21,Amazon.co.uk search (M4 config ASIN not verified) — tagged
+mac-mini-m4-pro-64gb-uk,https://www.amazon.co.uk/s?k=Mac+mini+M4+PRO+64GB&tag=mstejuv-21,Amazon.co.uk search (M4 config ASIN not verified) — tagged
 checklist,https://payhip.com/b/CGPy9,Payhip FREE product — Quiet Local AI Desk checklist (store https://payhip.com/QuietLocalAIDesk); not affiliate
+raycue-mac-mini-dock-uk,https://www.amazon.co.uk/dp/B0DT5LKD93?tag=mstejuv-21,Amazon.co.uk RayCue Mac mini dock — dp verified 2026-11-01
+acasis-dual-nvme-uk,https://www.amazon.co.uk/dp/B0FF4D1282?tag=mstejuv-21,Amazon.co.uk ACASIS dual-bay NVMe dock — dp verified 2026-11-01
+hagibis-mac-mini-hub-uk,https://www.amazon.co.uk/dp/B0DP8ZX7K8?tag=mstejuv-21,Amazon.co.uk Hagibis Mac mini hub — dp verified 2026-11-01
+keychron-k2-mac-uk,https://www.amazon.co.uk/dp/B07QBPDWLS?tag=mstejuv-21,Amazon.co.uk Keychron K2 (Brown) — dp verified 2026-11-01
+wd-black-sn850x-uk,https://www.amazon.co.uk/dp/B0B7CKVCCV?tag=mstejuv-21,Amazon.co.uk WD_BLACK SN850X — dp verified 2026-11-01
+logitech-mx-master-3s-mac-uk,https://www.amazon.co.uk/s?k=Logitech+MX+Master+3S+for+Mac&tag=mstejuv-21,Amazon.co.uk search — tagged

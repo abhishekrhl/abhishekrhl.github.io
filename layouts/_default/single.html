@@ -3,5 +3,6 @@
 <article>
   <h1>{{ .Title }}</h1>
   {{ .Content }}
+  {{ if eq .Section "posts" }}{{ partial "where-to-buy.html" . }}{{ end }}
 </article>
 {{ end }}

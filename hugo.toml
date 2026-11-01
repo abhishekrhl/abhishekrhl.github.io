@@ -11,6 +11,10 @@ disableKinds = ["taxonomy", "term"]
   description = "Local AI on Apple silicon — practical notes, affiliate-disclosed recommendations."
   affiliateDisclosure = "As an Amazon Associate I earn from qualifying purchases. Some links are affiliate links — I may earn a commission at no extra cost to you. See /disclosure/."
   showAffiliateDisclosure = true
+  # Amazon Associates tracking IDs (public). /go/<slug>/ = Amazon.in, /go/<slug>-uk/ = Amazon.co.uk
+  amazonTagIN = "abhishekrhl-21"
+  amazonTagUK = "mstejuv-21"
+  amazonDisclosure = "As an Amazon Associate I earn from qualifying purchases."
   analyticsProvider = "ga4"
   analyticsSiteId = "G-BY7TNSRVFV"
 

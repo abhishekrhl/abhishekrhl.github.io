@@ -1,0 +1,22 @@
+{{/* Auto "Where to buy" box: every Amazon /go/ slug referenced in the post gets India + UK buttons. */}}
+{{ $slugs := slice }}
+{{ range findRE `/go/[a-z0-9-]+` .RawContent }}
+  {{ $s := strings.TrimSuffix "-uk" (strings.TrimPrefix "/go/" .) }}
+  {{ $p := site.GetPage (printf "/go/%s" $s) }}
+  {{ $puk := site.GetPage (printf "/go/%s-uk" $s) }}
+  {{ $amz := false }}
+  {{ with $p }}{{ if in (string .Params.redirect_to) "amazon." }}{{ $amz = true }}{{ end }}{{ end }}
+  {{ with $puk }}{{ if in (string .Params.redirect_to) "amazon." }}{{ $amz = true }}{{ end }}{{ end }}
+  {{ if and $amz (not (in $slugs $s)) }}{{ $slugs = $slugs | append $s }}{{ end }}
+{{ end }}
+{{ if $slugs }}
+<aside class="where-to-buy">
+  <h2>Where to buy</h2>
+  <ul>
+  {{ range $slugs }}
+    <li><strong>{{ replace . "-" " " | title }}</strong> {{ partial "amazon-buttons.html" (dict "slug" .) }}</li>
+  {{ end }}
+  </ul>
+  <p class="amz-disclosure"><small>{{ site.Params.amazonDisclosure }} Links marked Amazon.in go to India; Amazon.co.uk to the UK.</small></p>
+</aside>
+{{ end }}
