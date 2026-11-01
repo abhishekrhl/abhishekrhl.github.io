@@ -5,8 +5,8 @@ url: "/go/anker-usb-c-hub-uk/"
 type: "go"
 layout: "redirect"
 robots: "noindex, nofollow"
-redirect_to: "https://www.amazon.co.uk/s?k=Anker+555+USB-C+Hub&tag=mstejuv-21"
-note: "Amazon.co.uk search — tagged"
+redirect_to: "https://www.amazon.co.uk/dp/B087QZVQJX?tag=mstejuv-21"
+note: "Amazon.co.uk /dp/B087QZVQJX title verified 2026-11-01 — tagged"
 ---
 
-If you are not redirected, [continue here](https://www.amazon.co.uk/s?k=Anker+555+USB-C+Hub&tag=mstejuv-21).
+If you are not redirected, [continue here](https://www.amazon.co.uk/dp/B087QZVQJX?tag=mstejuv-21).

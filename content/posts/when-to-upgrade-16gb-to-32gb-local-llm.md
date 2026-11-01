@@ -84,7 +84,7 @@ If those steps kill the swap and you still finish work, keep the 16 GB mini.
 | Q4 ~8–9B + Hugo/UI at once, or long context without unload discipline | **Configure 32 GB at purchase** |
 | Expecting user-upgradable RAM later | **No-Go myth** — soldered; buy the config you need |
 
-Allow-list shopping stubs when you are ready: [16 GB M4 search](/go/mac-mini-m4-16gb/), [32 GB M4 search](/go/mac-mini-m4-32gb/). UK stubs exist without Associates tags yet. Commission possible; the Go/Caution table above is still about memory pressure, not a review score.
+Allow-list shopping stubs when you are ready: [16 GB M4 search](/go/mac-mini-m4-16gb/), [32 GB M4 search](/go/mac-mini-m4-32gb/). UK readers: matching Amazon.co.uk search links are on the [Mac mini buyer guide](/posts/best-mac-mini-for-local-llms/). Commission possible; the Go/Caution table above is still about memory pressure, not a review score.
 
 ## Close
 

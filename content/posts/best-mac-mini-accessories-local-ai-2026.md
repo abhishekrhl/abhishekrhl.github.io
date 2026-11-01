@@ -12,7 +12,7 @@ affiliate: true
 
 A 16 GB Mac mini M4 can run useful local LLMs, but the **desk around it** decides whether weight reloads crawl, fans stay quiet, and ports stay sane. This buyer roundup is about accessories for a quiet local-AI desk — dock/NVMe path, portable SSD overflow, USB hub, keyboard/mouse — not inventing a “best UPS” SKU or fake bench numbers.
 
-Shopping stubs (allow-list only): {{< aff slug="ugreen-mac-mini-dock" text="UGREEN Mac mini dock" >}}, {{< aff slug="satechi-mac-mini-hub" text="Satechi hub" >}}, {{< aff slug="raycue-mac-mini-dock" text="RayCue dock" >}}, {{< aff slug="acasis-dual-nvme" text="ACASIS dual NVMe" >}}, {{< aff slug="hagibis-mac-mini-hub" text="Hagibis hub" >}}, {{< aff slug="samsung-t7-shield" text="Samsung T7 Shield" >}}, {{< aff slug="wd-black-sn850x" text="WD Black SN850X" >}}, {{< aff slug="anker-usb-c-hub" text="Anker USB-C hub" >}}, {{< aff slug="keychron-k2-mac" text="Keychron K2 Mac" >}}, {{< aff slug="logitech-mx-master-3s-mac" text="Logitech MX Master 3S Mac" >}}. Confirm live Amazon.in stock the week you buy — basket on the day, no invented list prices.
+Shopping stubs (allow-list only): {{< aff slug="ugreen-mac-mini-dock" text="UGREEN Mac mini dock" >}}, {{< aff slug="satechi-mac-mini-hub" text="Satechi hub" >}}, {{< aff slug="raycue-mac-mini-dock" text="RayCue dock" >}}, {{< aff slug="acasis-dual-nvme" text="ACASIS dual NVMe" >}}, {{< aff slug="hagibis-mac-mini-hub" text="Hagibis hub" >}}, {{< aff slug="samsung-t7-shield" text="Samsung T7 Shield" >}}, {{< aff slug="wd-black-sn850x" text="WD Black SN850X" >}}, {{< aff slug="anker-usb-c-hub" text="Anker USB-C hub" >}}, {{< aff slug="keychron-k2-mac" text="Keychron K2 Mac" >}}, {{< aff slug="logitech-mx-master-3s-mac" text="Logitech MX Master 3S" >}}. Confirm live Amazon.in stock the week you buy — basket on the day, no invented list prices.
 
 Related: [UGREEN vs Satechi (M4)](/posts/ugreen-vs-satechi-dock-mac-mini-m4/), [Dock vs T7 for models](/posts/mac-mini-dock-vs-t7-for-models/), [Best external SSD (UK)](/posts/best-external-ssd-for-ollama-models-uk/), [RAM × model matrix](/posts/ram-model-matrix-16gb-ollama/), [16 GB vs 24 GB](/posts/mac-mini-m4-16gb-vs-24gb-local-llm/), [Best Mac mini for local LLMs](/posts/best-mac-mini-for-local-llms/).
 
@@ -50,7 +50,7 @@ If the dock still leaves you short on USB-A/C for HID, audio, or a second stick,
 
 ## Keyboard and mouse: quiet desk, not tokens/sec
 
-Local AI days are long typing days. A loud membrane board will bother you more than a 9B model’s fan curve. Allow-list stubs: {{< aff slug="keychron-k2-mac" text="Keychron K2 Mac" >}}, {{< aff slug="logitech-mx-master-3s-mac" text="Logitech MX Master 3S Mac" >}}. Pick Mac layout / multi-device if you also use a laptop. No invented switch-sound labs here — try return windows if silence matters.
+Local AI days are long typing days. A loud membrane board will bother you more than a 9B model’s fan curve. Allow-list stubs: {{< aff slug="keychron-k2-mac" text="Keychron K2 Mac" >}}, {{< aff slug="logitech-mx-master-3s-mac" text="Logitech MX Master 3S" >}}. Pick Mac layout / multi-device if you also use a laptop. No invented switch-sound labs here — try return windows if silence matters.
 
 ## Power and UPS (soft claims only)
 

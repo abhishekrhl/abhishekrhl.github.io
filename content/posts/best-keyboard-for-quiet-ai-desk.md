@@ -11,7 +11,7 @@ description: "Local AI desk note — quality-gated draft."
 
 A quiet local-AI desk fails in two audible ways: the Mac mini’s fans under a heavy generate, and a **loud keyboard** you live with for eight hours of prompts and edits. This buyer note shortlists **quiet input** for a Mac mini writing desk — Mac layout, wireless optional, no invented decibel labs.
 
-Allow-list shopping stubs only: [Keychron K2 Mac](/go/keychron-k2-mac/), [Logitech MX Master 3S Mac](/go/logitech-mx-master-3s-mac/) (mouse companion), [Anker USB-C hub](/go/anker-usb-c-hub/) if you need a spare receiver port. No other keyboard ASINs on the allow-list — do not invent `/go/` for NuPhy/MX Keys/etc.; soft-cite the *class* and verify Amazon.in the week you buy.
+Allow-list shopping stubs only: [Keychron K2 Mac](/go/keychron-k2-mac/), [Logitech MX Master 3S](/go/logitech-mx-master-3s-mac/) (mouse companion), [Anker USB-C hub](/go/anker-usb-c-hub/) if you need a spare receiver port. No other keyboard ASINs on the allow-list — do not invent `/go/` for NuPhy/MX Keys/etc.; soft-cite the *class* and verify Amazon.in the week you buy.
 
 Related: [Best Mac mini accessories (2026)](/posts/best-mac-mini-accessories-local-ai-2026/), [Best monitor for Mac mini AI desk](/posts/best-monitor-for-mac-mini-ai-desk/), [UGREEN vs Satechi dock](/posts/ugreen-vs-satechi-dock-mac-mini-m4/), [Quiet desk checklist](/posts/quiet-desk-checklist-16gb/), [Best Mac mini for local LLMs](/posts/best-mac-mini-for-local-llms/).
 
@@ -40,7 +40,7 @@ Start with the stub that exists: [Keychron K2 Mac](/go/keychron-k2-mac/). Keychr
 - Silent or brown-class switches if the SKU offers a choice — avoid clicky.
 - Wired USB-C fallback so a dead Bluetooth day does not stop shipping posts.
 
-Companion pointing device stub: [MX Master 3S Mac](/go/logitech-mx-master-3s-mac/). Quiet enough for most desks; multi-device if you also use a laptop.
+Companion pointing device stub: [Logitech MX Master 3S](/go/logitech-mx-master-3s-mac/). Quiet enough for most desks; multi-device if you also use a laptop.
 
 Other quiet classes (low-profile Logitech MX Keys–style, other silent 75% boards) are fine to consider **without** a `/go/` link until they are added to `links.csv`. Soft claim only: [CITE:] current Amazon.in / manufacturer page the day you buy — no invented prices.
 

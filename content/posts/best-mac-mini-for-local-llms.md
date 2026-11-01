@@ -96,9 +96,9 @@ Unified memory is soldered directly to the processor and cannot be upgraded afte
 
 ### UK Note
 
-For readers in the United Kingdom: Amazon.co.uk Associates tags are pending (TODO_UK). Until those tags arrive, the Mac mini CTAs on this page use the India `/go/mac-mini-m4-*` placeholders; matching `/go/mac-mini-m4-*-uk/` stubs will be swapped in when UK tracking is approved.
+For readers in the United Kingdom: the links below go to tagged Amazon.co.uk searches for each Mac mini configuration (no single listing is verified per configuration yet), so check the exact chip, memory and storage on the product page before you buy.
 
-**UK (TODO_UK placeholders):** [16 GB](/go/mac-mini-m4-16gb-uk/) · [24 GB](/go/mac-mini-m4-24gb-uk/) · [32 GB](/go/mac-mini-m4-32gb-uk/) · [M4 Pro 48 GB](/go/mac-mini-m4-pro-48gb-uk/) · [M4 Pro 64 GB](/go/mac-mini-m4-pro-64gb-uk/)
+**UK (Amazon.co.uk searches):** [16 GB](/go/mac-mini-m4-16gb-uk/) · [24 GB](/go/mac-mini-m4-24gb-uk/) · [32 GB](/go/mac-mini-m4-32gb-uk/) · [M4 Pro 48 GB](/go/mac-mini-m4-pro-48gb-uk/) · [M4 Pro 64 GB](/go/mac-mini-m4-pro-64gb-uk/)
 
 **See today's price:** [24 GB](/go/mac-mini-m4-24gb/) · [32 GB](/go/mac-mini-m4-32gb/) · [M4 Pro 48 GB](/go/mac-mini-m4-pro-48gb/) · [M4 Pro 64 GB](/go/mac-mini-m4-pro-64gb/) (affiliate) · expand storage: [UGREEN dock](/go/ugreen-mac-mini-dock/) · [Satechi hub](/go/satechi-mac-mini-hub/) · [T7 Shield](/go/samsung-t7-shield/)
 

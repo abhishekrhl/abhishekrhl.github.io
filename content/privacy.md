@@ -8,12 +8,12 @@ description: "Minimal privacy notice for this static blog."
 
 # Privacy policy
 
-**Last updated:** 25 October 2026 (Asia/Calcutta).  
-**Operator:** Abhishek Kumar — [PLACEHOLDER: legal / trading name if different].  
+**Last updated:** 1 November 2026 (Asia/Calcutta).  
+**Operator:** Abhishek Kumar.  
 **Site:** https://abhishekrhl.github.io/.  
-**Contact:** [PLACEHOLDER: contact email].
+**Contact:** via GitHub, [github.com/abhishekrhl](https://github.com/abhishekrhl).
 
-This is a **static blog** hosted on **GitHub Pages** (free tier). It is intentionally small. Replace placeholders before relying on this as a public legal page.
+This is a **static blog** hosted on **GitHub Pages** (free tier). It is intentionally small.
 
 ---
 
@@ -33,7 +33,7 @@ If I later add a contact form, newsletter embed, or checkout:
 
 | Feature | What may be collected | Where processed |
 |---|---|---|
-| Email newsletter | Email address, signup metadata | [PLACEHOLDER: Kit / beehiiv / other — not enabled yet] |
+| Email newsletter | Email address, signup metadata | Not enabled |
 | Ebook checkout | Name, email, payment details | **Payhip** (merchant of record for digital goods) — see Payhip’s privacy policy |
 | Contact email | Whatever you send me | My mailbox only |
 
@@ -41,14 +41,10 @@ I do not sell personal information.
 
 ---
 
-## Analytics (placeholder)
+## Analytics
 
-**Status:** not enabled at pack creation.
+**Status:** Google Analytics 4 is enabled (see the note below).
 
-If analytics is added later, this section will name the tool and what it stores. Candidates under consideration (privacy-oriented first):
-
-- [PLACEHOLDER: e.g. Fathom / Cloudflare Web Analytics / Plausible — pick one; note Plausible has no paid affiliate]
-- Or **none** (rely on GitHub / registrar logs only)
 
 Until a tool is live:
 
@@ -97,7 +93,7 @@ This site is not directed at children. I do not knowingly collect personal data 
 
 Depending on where you live (e.g. UK GDPR / EU GDPR / India’s Digital Personal Data Protection Act once applicable obligations apply to this operator), you may have rights to access, correct, or delete personal data I hold, or to complain to a supervisory authority.
 
-To exercise rights regarding data **I** hold, email [PLACEHOLDER: contact email].  
+To exercise rights regarding data **I** hold, contact me via [GitHub](https://github.com/abhishekrhl).  
 For data held only by Payhip, Amazon, GitHub, or an analytics vendor, contact that organisation directly as well.
 
 ---

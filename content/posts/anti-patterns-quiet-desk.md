@@ -47,7 +47,7 @@ Dry_run trading stays isolated so inference latency cannot invent a “missed fi
 
 ## Anti-pattern 5: Invented affiliate paths
 
-A `/go/cool-dock/` that is not in `links.csv` is a broken promise. On GitHub Pages that is a 404 or a silent miss — either way the disclosure is empty for that click.
+A `/go/` slug that is not in `links.csv` (say, a made-up dock slug) is a broken promise. On GitHub Pages that is a 404 or a silent miss — either way the disclosure is empty for that click.
 
 Fix: allow-list only — [affiliate allow-list hygiene](/posts/affiliate-allow-list-hygiene/). Placeholders for UK Associates are fine; invented ASINs are not.
 

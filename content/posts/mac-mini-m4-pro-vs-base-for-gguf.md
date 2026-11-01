@@ -59,7 +59,7 @@ Once the SKU fits your models:
 
 1. Put the **active** Ollama/GGUF store on Thunderbolt dock NVMe ([UGREEN](/go/ugreen-mac-mini-dock/) class) — see [dock vs T7](/posts/mac-mini-dock-vs-t7-for-models/).
 2. Keep [Samsung T7 Shield](/go/samsung-t7-shield/) for overflow / pouch, not as the only hot lane.
-3. Quiet input and ports: [Keychron K2 Mac](/go/keychron-k2-mac/), [MX Master 3S Mac](/go/logitech-mx-master-3s-mac/), [accessories 2026](/posts/best-mac-mini-accessories-local-ai-2026/).
+3. Quiet input and ports: [Keychron K2 Mac](/go/keychron-k2-mac/), [Logitech MX Master 3S](/go/logitech-mx-master-3s-mac/), [accessories 2026](/posts/best-mac-mini-accessories-local-ai-2026/).
 
 ## Soft claims / what we will not invent
 
