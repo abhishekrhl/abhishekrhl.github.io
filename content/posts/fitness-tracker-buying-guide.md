@@ -9,9 +9,9 @@ description: "GPS, battery, sleep tracking and subscriptions compared across thr
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
-Most people who buy a fitness band want three things: step and heart-rate tracking, sleep data, and a battery that doesn't need charging every night. The differences show up in GPS, screen and — easy to miss — which features need a paid subscription. This guide compares three slim bands on those.
+Most people who buy a fitness band want three things: step and heart-rate tracking, sleep data, and a battery that doesn't need charging every night. The differences show up in GPS, screen and, easy to miss, which features need a paid subscription. This guide compares three slim bands on those.
 
 ## Quick picks
 
@@ -32,15 +32,15 @@ Most people who buy a fitness band want three things: step and heart-rate tracki
 | Subscription | 3-month Premium in India box (6 months on UK page) | 3-month Premium trial | None mentioned |
 | Stores | IN + UK | IN | IN + UK |
 
-## Fitbit Charge 6 — GPS and Google extras
+## Fitbit Charge 6: GPS and Google extras
 
 Fitbit lists built-in GPS, 40+ exercise modes, 24/7 heart rate, Google Maps turn-by-turn directions and YouTube Music controls, and the ability to show heart rate on compatible treadmills and ellipticals. *Pick it* if you run or ride without your phone. *Skip it* if you won't use GPS.
 
-## Fitbit Inspire 3 — the simple one
+## Fitbit Inspire 3: the simple one
 
 The listing highlights up to 10 days of battery (varies with use), SpO2, a stress management score and phone notifications. Note what Fitbit flags: the daily readiness score and sleep profile are **Premium only**. *Pick it* for basic all-day tracking. *Skip it* if you want deep sleep analysis without paying.
 
-## Huawei Band 11 — screen and weight
+## Huawei Band 11: screen and weight
 
 Huawei lists a 1.62-inch 60 Hz AMOLED screen up to 1500 nits, 16 g weight, an 8.99 mm case, sleep HRV tracking with out-of-range alerts, and around 100 workout modes. *Pick it* if readability outdoors and a light band matter. *Skip it* if you want Google services.
 

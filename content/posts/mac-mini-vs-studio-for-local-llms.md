@@ -39,10 +39,10 @@ The value proposition hinges on whether you need 16 GB or 32+ GB for your specif
 | **M4 Mac mini (16 GB)** | ~7B–8B params (Q4/Q5) | Small SLMs, simple chat, lightweight coding. | High risk of swap on large contexts or 13B+ models. |
 | **Mac Studio (32 GB+)** | ~30B–70B params (Q4/Q5) | Large language models, RAG with long context, multi-tool stacks. | Low risk; handles concurrent services and heavy loads. |
 
-*Model-size bands are approximate under Q4_K_M with a modest context; treat them as planning ranges, not benches — measure with `ollama ps` and memory pressure on your own desk.*
+*Model-size bands are approximate under Q4_K_M with a modest context; treat them as planning ranges, not benches, measure with `ollama ps` and memory pressure on your own desk.*
 
 ## Conclusion
-If your workload stays on small quantised models with modest context, a base M4 Mac mini is often enough — and cheaper to start. Once you need longer contexts, multi-service stacks, or weights that push past comfortable free MB, buy memory headroom first; Apple Silicon RAM is not upgradable later.
+If your workload stays on small quantised models with modest context, a base M4 Mac mini is often enough, and cheaper to start. Once you need longer contexts, multi-service stacks, or weights that push past comfortable free MB, buy memory headroom first; Apple Silicon RAM is not upgradable later.
 
 ## Next steps (allow-listed)
 - Compare current mini configs: [Mac mini M4 16 GB](/go/mac-mini-m4-16gb/), [24 GB](/go/mac-mini-m4-24gb/), [32 GB](/go/mac-mini-m4-32gb/).

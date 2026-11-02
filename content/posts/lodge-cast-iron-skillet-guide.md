@@ -9,7 +9,7 @@ description: "Standard 10.25-inch skillet, the 3-inch-deep version, or the 8-inc
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
 The common cast-iron mistake is buying the shape you saw on social media rather than the one that fits your hob and your cooking. Lodge sells several pans that look alike in thumbnails; this guide separates them by depth and size so you buy one pan that you actually use.
 
@@ -27,19 +27,19 @@ The common cast-iron mistake is buying the shape you saw on social media rather 
 | Listing notes | Gas, electric or induction | Pre-seasoned with vegetable oil; looped side handle plus helper handle; hand wash only | Cast iron, black |
 | Stores | IN + UK | IN + UK | IN |
 
-## Lodge 10.25-inch skillet — the default
+## Lodge 10.25-inch skillet: the default
 
 The listing confirms use on gas, electric or induction stovetops. That induction line is the important one if you're replacing non-stick on an induction hob. A 10.25-inch pan is a sensible size for two to three people.
 
-**Pick this if** you want one pan for searing, dosa-style flatbreads, eggs and roasting. **Skip if** you mostly cook saucy dishes — go deep.
+**Pick this if** you want one pan for searing, dosa-style flatbreads, eggs and roasting. **Skip if** you mostly cook saucy dishes: go deep.
 
-## Lodge deep skillet — for sauces and shallow-frying
+## Lodge deep skillet: for sauces and shallow-frying
 
 Lodge lists it as 3 inches deep, pre-seasoned with a vegetable oil formula, with a looped handle and a helper handle on the opposite side. The helper handle is not a gimmick: a full cast-iron pan is heavy, and two-handed lifting is safer. The listing says hand wash only.
 
-**Pick this if** you cook curries, stews or shallow-fry. **Skip if** you want to flip food with a spatula a lot — the high wall gets in the way.
+**Pick this if** you cook curries, stews or shallow-fry. **Skip if** you want to flip food with a spatula a lot: the high wall gets in the way.
 
-## Lodge 8-inch round pan — small batches
+## Lodge 8-inch round pan: small batches
 
 The Amazon.in listing for the L5RPL3 is thin on detail (cast iron, black, 8 inch, with a loop handle). I could not match the same pan on Amazon.co.uk, so it is India-only here.
 

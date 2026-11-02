@@ -9,9 +9,9 @@ description: "What Amazon actually lists for the 7-inch Kindle Paperwhite — sp
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
-The question with an e-reader isn't "is it good" — it's whether you'll read more on it than on the phone you already own. The Kindle Paperwhite's case is mostly about what it *doesn't* do. Here is what Amazon lists for the current 16 GB model, and who it suits.
+The question with an e-reader isn't "is it good", it's whether you'll read more on it than on the phone you already own. The Kindle Paperwhite's case is mostly about what it *doesn't* do. Here is what Amazon lists for the current 16 GB model, and who it suits.
 
 **Where to buy (India):** {{< aff slug="kindle-paperwhite-16gb" text="Amazon Kindle Paperwhite (16 GB)" >}}
 

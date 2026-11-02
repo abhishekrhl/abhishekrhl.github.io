@@ -29,9 +29,9 @@ Use direct phrasing: "This article contains affiliate links, meaning we may rece
 
 Once approved, move text into the technical pipeline. For static site generation, **Hugo** remains a reliable backbone for content structure and metadata. Front-matter defines page rendering and dictates where external resources point. In a local-AI workflow with redirects to internal docs or affiliate pages, configuration must be precise.
 
-A common error is creating broken links or unintended loops when redirecting old URLs. Before deploying, run a sanity check on all `/go/` style redirects. Ensure temporary links point to correct permanent destinations and that no infinite loops exist in server config. If hosting via **GitHub Pages**, verify custom domains resolve correctly and environment variables for local testing match production settings.
+A common error is creating broken links or unintended loops when redirecting old URLs. Before deploying, run a sanity check on all `/go/` style redirects. Make sure temporary links point to correct permanent destinations and that no infinite loops exist in server config. If hosting via **GitHub Pages**, verify custom domains resolve correctly and environment variables for local testing match production settings.
 
-This ensures the path from reader to resource is smooth. It prevents frustration when a user clicks an affiliate link only to find a 404 or slow redirect chain. Clean front-matter helps search engines understand content-asset relationships. Automating broken link checks reduces cognitive load and maintains professional standards.
+This makes sure the path from reader to resource is smooth. It prevents frustration when a user clicks an affiliate link only to find a 404 or slow redirect chain. Clean front-matter helps search engines understand content-asset relationships. Automating broken link checks reduces cognitive load and maintains professional standards.
 
 ## Audio and Voice Assets Without Thrashing Drafts
 
@@ -39,7 +39,7 @@ Text is not the only asset. Many readers prefer audio, but generating high-quali
 
 One approach pairs **Apple Silicon** with lightweight inference engines for efficient synthesis. Frameworks like **mlx-audio** allow on-device text-to-speech without sending data to the cloud, preserving privacy and reducing latency.
 
-Do not generate final audio from raw AI drafts containing errors or placeholders. The workflow must be sequential: write and edit text first, then convert the polished version to audio. Generating audio from flawed drafts wastes resources and creates poor listening experiences. Apply the human rewrite gate here; only feed reviewed text into the synthesis pipeline. This ensures spoken words match written words perfectly and prevents hallucinations from propagating into voice content. Keep audio generation separate from drafting to maintain clean separation of concerns.
+Do not generate final audio from raw AI drafts containing errors or placeholders. The workflow must be sequential: write and edit text first, then convert the polished version to audio. Generating audio from flawed drafts wastes resources and creates poor listening experiences. Apply the human rewrite gate here; only feed reviewed text into the synthesis pipeline. This makes sure spoken words match written words perfectly and prevents hallucinations from propagating into voice content. Keep audio generation separate from drafting to maintain clean separation of concerns.
 
 ## What Stays Offline Forever
 
@@ -49,19 +49,19 @@ Sensitive data, training sets, and raw logs must remain on-device. Do not upload
 
 The local-AI workflow is a loop returning to human oversight at every critical junction. By establishing a strict rewrite gate, crafting durable disclosures, verifying technical links, managing audio assets carefully, and keeping sensitive data offline, we create an efficient and responsible system.
 
-This checklist ensures technology serves the narrative rather than dictating it. It allows leveraging local model speed while retaining human accountability. The result is content that builds trust, respects privacy, and stands up to scrutiny. In an era where AI-generated text is ubiquitous, the quiet desk remains the most important place in publishing.
+This checklist makes sure technology serves the narrative rather than dictating it. It lets you use local model speed while retaining human accountability. The result is content that builds trust, respects privacy, and stands up to scrutiny. In an era where AI-generated text is ubiquitous, the quiet desk remains the most important place in publishing.
 
 
 ---
 
 ## Desk gear that actually helps a 16 GB Mac mini (affiliate)
 
-If model files and drafts are fighting the internal SSD, external NVMe via a Mac mini dock is the practical upgrade — not a bigger cloud bill.
+If model files and drafts are fighting the internal SSD, external NVMe via a Mac mini dock is the practical upgrade, not a bigger cloud bill.
 
-- [UGREEN Mac mini dock with NVMe slot](/go/ugreen-mac-mini-dock/) (affiliate) — ports + model-library drive in one stand.
-- [Satechi Mac mini hub & stand](/go/satechi-mac-mini-hub/) (affiliate) — design-matched alternative.
-- [Samsung T7 Shield portable SSD](/go/samsung-t7-shield/) (affiliate) — fast offload for GGUF libraries when a full dock is overkill.
-- UK readers: [UGREEN on Amazon.co.uk](/go/ugreen-mac-mini-dock-uk/) (placeholder — Associates tag lands after UK approval).
+- [UGREEN Mac mini dock with NVMe slot](/go/ugreen-mac-mini-dock/) (affiliate): ports + model-library drive in one stand.
+- [Satechi Mac mini hub & stand](/go/satechi-mac-mini-hub/) (affiliate): design-matched alternative.
+- [Samsung T7 Shield portable SSD](/go/samsung-t7-shield/) (affiliate): fast offload for GGUF libraries when a full dock is overkill.
+- UK readers: [UGREEN on Amazon.co.uk](/go/ugreen-mac-mini-dock-uk/) (placeholder: Associates tag lands after UK approval).
 
 Disclosure: as an Amazon Associate I earn from qualifying purchases. See [/disclosure/](/disclosure/).
 
@@ -74,4 +74,4 @@ Disclosure: as an Amazon Associate I earn from qualifying purchases. See [/discl
 
 ---
 
-**Free download:** the [Quiet Local AI Desk checklist](/go/checklist/) — a printable version of this setup, free on Payhip (my own store; not an affiliate link, no payment required).
+**Free download:** the [Quiet Local AI Desk checklist](/go/checklist/): a printable version of this setup, free on Payhip (my own store; not an affiliate link, no payment required).

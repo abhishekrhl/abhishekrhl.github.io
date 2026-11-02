@@ -9,7 +9,7 @@ description: "Glare control, auto on/off, backlight and curved-monitor fit compa
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
 A desk lamp next to your monitor tends to reflect off the screen or throw shadows. A monitor light bar sits on top and angles light down onto the desk, not into your eyes. The differences between models are glare control, automatic switching and whether they fit your monitor. Here's how three compare.
 
@@ -33,7 +33,7 @@ A desk lamp next to your monitor tends to reflect off the screen or throw shadow
 
 ## BenQ ScreenBar Pro
 
-BenQ lists an ultrasonic presence sensor that switches the light on as you approach and off five minutes after you leave, 1000 lux at the centre, 16 brightness levels, 8 colour temperatures and auto-dimming. *Pick it* for a daytime desk where you come and go. *Skip it* if you work in a dark room — there's no backlight.
+BenQ lists an ultrasonic presence sensor that switches the light on as you approach and off five minutes after you leave, 1000 lux at the centre, 16 brightness levels, 8 colour temperatures and auto-dimming. *Pick it* for a daytime desk where you come and go. *Skip it* if you work in a dark room, there's no backlight.
 
 ## BenQ ScreenBar Halo 2
 

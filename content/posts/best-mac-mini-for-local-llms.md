@@ -43,7 +43,7 @@ The 32 GB model allows you to load a 30B+ model in Q3/Q4 format while retaining 
 #### M4 vs M4 Pro (Same RAM)
 When comparing a standard M4 chip with an M4 Pro chip at the same memory capacity (e.g., 24 GB), the primary difference lies in raw compute throughput and I/O bandwidth, not memory size. The M4 Pro features more cores and higher memory bandwidth.
 
-For inference tasks on small-to-mid-sized models (up to ~30B parameters), the speed difference between M4 and M4 Pro is often negligible for a single-user desk setup. Both chips are highly efficient. However, if you plan to run multiple models simultaneously or utilise features that benefit from higher bandwidth, the Pro variant offers an advantage. Crucially, do not buy the M4 Pro solely for its chip if your memory requirement is met by the base model; ensure the RAM matches your needs first.
+For inference tasks on small-to-mid-sized models (up to ~30B parameters), the speed difference between M4 and M4 Pro is often negligible for a single-user desk setup. Both chips are highly efficient. However, if you plan to run multiple models simultaneously or utilise features that benefit from higher bandwidth, the Pro variant offers an advantage. Crucially, do not buy the M4 Pro solely for its chip if your memory requirement is met by the base model; make sure the RAM matches your needs first.
 
 #### Buy 48 GB Pro vs Stretch to 64 GB
 The 48 GB configuration on the M4 Pro is widely considered the "sweet spot" for serious local LLM work. It supports daily use of 27B–32B models with reasonable quantisation, offering a balance between cost and capability. The 64 GB option extends this to larger models or experiments with 70B parameter families in heavily compressed formats.
@@ -68,7 +68,7 @@ For deeper discussions on avoiding these pitfalls and maintaining a quiet desk w
 
 To get the most out of your Mac mini, you need a cohesive software stack that respects the hardware constraints. The foundation is **Ollama** ([Ollama](/go/ollama/)), which provides a simple interface for running models locally. For users who prefer lower-level control or specific inference backends, **llama.cpp** ([llama.cpp](/go/llama-cpp/)) is an excellent alternative, particularly for quantised GGUF files.
 
-For the user interface, **Open WebUI** ([Open WebUI](/go/open-webui/)) offers a chat interface that integrates well with Ollama or llama.cpp running beside it. This creates a familiar ChatGPT-like experience without relying on cloud APIs. Ensure you are using Apple silicon-specific notes and configurations as detailed in our [Apple silicon guide](/go/apple-silicon/) to avoid compatibility issues.
+For the user interface, **Open WebUI** ([Open WebUI](/go/open-webui/)) offers a chat interface that integrates well with Ollama or llama.cpp running beside it. This creates a familiar ChatGPT-like experience without relying on cloud APIs. Make sure you are using Apple silicon-specific notes and configurations as detailed in our [Apple silicon guide](/go/apple-silicon/) to avoid compatibility issues.
 
 We also recommend reviewing our specific setups for quiet environments: the [quiet local AI writing desk](/posts/quiet-local-ai-writing-desk/), the [checklist for 16 GB machines](/posts/quiet-desk-checklist-16gb/), and our analysis of [quantisation choices for 16 GB systems](/posts/llama-cpp-quant-choices-16gb/). Additionally, consider how to run these tools alongside each other effectively in our guide on [building a quiet local AI desk stack](/posts/building-quiet-local-ai-desk-stack/) and the comparison between running Open WebUI versus llama.cpp directly ([Open WebUI beside llama.cpp](/posts/open-webui-llama-cpp-beside-ollama/)).
 
@@ -76,7 +76,7 @@ We also recommend reviewing our specific setups for quiet environments: the [qui
 
 A common misconception is that an external SSD can increase your unified memory. It cannot. External storage only holds the model weights (GGUF files); they must be loaded into RAM to run. However, a fast external SSD is genuinely useful for storing multiple models without cluttering your internal drive or slowing down load times.
 
-If you plan to keep dozens of GGUF files on your machine, an NVMe dock or hub is highly recommended. We suggest options like the [UGreen Mac Mini Dock](/go/ugreen-mac-mini-dock/) or the [Satechi Mac Mini Hub](/go/satechi-mac-mini-hub/) for general connectivity. For pure speed and capacity, a high-end SSD such as the [Samsung T7 Shield](/go/samsung-t7-shield/) or an [ACASIS Dual NVMe enclosure](/go/acasis-dual-nvme/) paired with a drive like the [WD Black SN850X](/go/wd-black-sn850x/) ensures that loading large models from disk is reasonably fast, even if it does not bypass the RAM limit.
+If you plan to keep dozens of GGUF files on your machine, an NVMe dock or hub is highly recommended. We suggest options like the [UGreen Mac Mini Dock](/go/ugreen-mac-mini-dock/) or the [Satechi Mac Mini Hub](/go/satechi-mac-mini-hub/) for general connectivity. For pure speed and capacity, a high-end SSD such as the [Samsung T7 Shield](/go/samsung-t7-shield/) or an [ACASIS Dual NVMe enclosure](/go/acasis-dual-nvme/) paired with a drive like the [WD Black SN850X](/go/wd-black-sn850x/) makes sure that loading large models from disk is reasonably fast, even if it does not bypass the RAM limit.
 
 Remember: these accessories expand your storage capacity for model files, but they do not raise the ceiling of what you can run in memory.
 
@@ -104,4 +104,4 @@ For readers in the United Kingdom: the links below go to tagged Amazon.co.uk sea
 
 ---
 
-**Free download:** the [Quiet Local AI Desk checklist](/go/checklist/) — a printable version of this setup, free on Payhip (my own store; not an affiliate link, no payment required).
+**Free download:** the [Quiet Local AI Desk checklist](/go/checklist/): a printable version of this setup, free on Payhip (my own store; not an affiliate link, no payment required).

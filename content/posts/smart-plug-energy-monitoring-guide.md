@@ -9,7 +9,7 @@ description: "Which smart plug for a geyser, AC or kettle versus a TV or router 
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
 The mistake with smart plugs in India is plugging a geyser or AC into a plug rated for a phone charger. Amperage is the first filter, features second. This guide sorts three energy-monitoring plugs by what you can safely put on them.
 
@@ -32,7 +32,7 @@ The mistake with smart plugs in India is plugging a geyser or AC into a plug rat
 
 ## Tapo P110
 
-TP-Link lists remote on/off, schedules, countdown timers, real-time power and energy-spend monitoring, and voice control through Alexa or Google Assistant. It's the only one here I could match on both Amazon.in and Amazon.co.uk — note the UK version is a UK plug, so buy from the store for your sockets.
+TP-Link lists remote on/off, schedules, countdown timers, real-time power and energy-spend monitoring, and voice control through Alexa or Google Assistant. It's the only one here I could match on both Amazon.in and Amazon.co.uk, note the UK version is a UK plug, so buy from the store for your sockets.
 
 **Pick this if** you want schedules, countdown timers and an energy-spend readout in one app. **Skip if** you're already all-in on the Wipro app.
 
@@ -45,7 +45,7 @@ Wipro's listings are short: polycarbonate body, one-year warranty, app control f
 ## What the listings don't tell you
 
 - **Socket shape.** Indian 16 A sockets are larger than 6 A ones; confirm the plug fits your wall socket.
-- **2.4 GHz Wi-Fi.** Many smart plugs only join 2.4 GHz networks — check the live page and your router.
+- **2.4 GHz Wi-Fi.** Many smart plugs only join 2.4 GHz networks: check the live page and your router.
 - **Don't automate heaters blindly.** Schedules on geysers are fine; remote switching of anything that can overheat deserves care.
 
 ## Bottom line

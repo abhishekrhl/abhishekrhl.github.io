@@ -13,19 +13,19 @@ description: "Practical local-AI notes for a 16 GB Apple silicon Mac mini — af
 
 > **Disclosure:** This article contains affiliate links to tools I use or recommend. Purchases through them may earn a commission at no extra cost to you.
 
-A 16 GB Apple silicon Mac mini hosts local prose, static builds, short voice, and overnight video — but only if day and night stay in separate lanes. Without an explicit schedule, Ollama drafting, Hugo rebuilds, mlx-audio clips, and heavy renders compete for the same unified memory. This fourteenth post documents the LaunchAgent pattern that keeps the desk quiet during writing hours.
+A 16 GB Apple silicon Mac mini hosts local prose, static builds, short voice, and overnight video, but only if day and night stay in separate lanes. Without an explicit schedule, Ollama drafting, Hugo rebuilds, mlx-audio clips, and heavy renders compete for the same unified memory. This fourteenth post documents the LaunchAgent pattern that keeps the desk quiet during writing hours.
 
 ## Why a writing desk needs an explicit schedule
 
 Day work is low-latency prose: briefs, outlines, drafts, claims worksheets, and dry Hugo builds. Those jobs require a responsive local model and a machine that is not swapping under a render. Night work is throughput: overnight video jobs-style video jobs that unload the chat model, saturate Metal, and write large files.
 
-Running both simultaneously causes fans to rise, token latency to spike, and the writer to context-switch over heat. The fix is temporal separation, not a bigger cloud bill. GitHub Pages may host the eventual static site, but daytime bots do not publish — dry rebuilds only until a human clears deploy.
+Running both simultaneously causes fans to rise, token latency to spike, and the writer to context-switch over heat. The fix is temporal separation, not a bigger cloud bill. GitHub Pages may host the eventual static site, but daytime bots do not publish, dry rebuilds only until a human clears deploy.
 
 ## LaunchAgents that belong on the desk
 
 Four user LaunchAgents cover the quiet-desk loop on this machine. Names below match the live labels; treat them as a pattern, not a store catalogue.
 
-**Keepalive.** A KeepAlive agent restarts the remote-agent bridge if it exits, ensuring unattended daytime sessions continue without manual relaunch.
+**Keepalive.** A KeepAlive agent restarts the remote-agent bridge if it exits, making sure unattended daytime sessions continue without manual relaunch.
 
 **Display-awake.** A second agent runs a helper to prevent the panel from sleeping mid-draft when the box is idle. Writing hours need a reachable UI more than aggressive power saving.
 
@@ -47,14 +47,14 @@ These agents start, log, and stop. They do not invent affiliate slugs, open paym
 
 Outside the night window, agents continue **content**: blog articles, ebook chapters, claims, short voice scripts, dry Hugo wiring. They may **inspect** the overnight video jobs queue (ready / running / done / failed) and read sanitize notes. They must **not** start overnight renders, promote jobs into the live runner, or treat a closed `ai-window` as an invitation to "just test one clip."
 
-Leave-alone extends to noise: do not chase Freqtrade log lines or Tailscale heal chatter unless the wake's brief says so. Attention stays on the writing kit — askai write → ≤0.9× cut → extract-claims → voice ≤120 words — and on local site wiring.
+Leave-alone extends to noise: do not chase Freqtrade log lines or Tailscale heal chatter unless the wake's brief says so. Attention stays on the writing kit, askai write → ≤0.9× cut → extract-claims → voice ≤120 words, and on local site wiring.
 
 ## Hand-off note before 01:00–06:30 IST
 
 Before the calendar agent wakes, leave a short night hand-off in notes:
 
 1. Confirm **two** `.job.ready` files under the render queue (e.g., `small-complex` and `bigger-complex` templates already sanitized).
-2. State that daytime did **inspect-only** — no overnight video jobs start.
+2. State that daytime did **inspect-only**: no overnight video jobs start.
 3. Remind: unload chat models inside the night wrapper; leave Tailscale and Freqtrade alone.
 4. Remind: still no Cloudflare publish from the overnight path.
 

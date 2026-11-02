@@ -51,7 +51,7 @@ Hugo wiring still matters. Every new post should carry only allow-listed `/go/` 
 
 Place a short disclosure immediately under the title (and series line), before any in-body `/go/` tool link. Titles may mention the `/go/` pattern as a topic; the clickable weaves belong after the disclosure.
 
-Weave tools in-body where they earn context — Ollama for local drafting, Hugo for the static kit, Apple silicon for the quiet desk, mlx-audio for short voice, GitHub Pages for the eventual host — rather than dumping a "Related stack" footer. Prefer the live CSV over memory when a brief names the allow-list.
+Weave tools in-body where they earn context, Ollama for local drafting, Hugo for the static kit, Apple silicon for the quiet desk, mlx-audio for short voice, GitHub Pages for the eventual host, rather than dumping a "Related stack" footer. Prefer the live CSV over memory when a brief names the allow-list.
 
 ## Desk checklist before any human ship
 

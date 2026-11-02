@@ -19,13 +19,13 @@ On 16 GB machines, model selection is critical. Larger models risk exceeding ava
 
 ### Static Site Generation with Hugo
 
-Hugo serves as a lightweight static site generator for personal blogs. It compiles content into static HTML files, ensuring fast load times and minimal server overhead (source: Hugo documentation). Unlike dynamic platforms requiring continuous database queries, Hugo produces a fixed set of files ready for deployment.
+Hugo serves as a lightweight static site generator for personal blogs. It compiles content into static HTML files, making sure fast load times and minimal server overhead (source: Hugo documentation). Unlike dynamic platforms requiring continuous database queries, Hugo produces a fixed set of files ready for deployment.
 
 The pipeline remains simple: build locally, then push generated files to any provider supporting static delivery. This separates the local writing environment from the publication layer.
 
 ### Hosting and Redirects via GitHub Pages
 
-GitHub Pages hosts these static builds with global CDN capabilities, ensuring fast loads regardless of visitor location (source: GitHub Pages features). It handles scaling automatically, removing the need to manage server capacity or worry about traffic spikes.
+GitHub Pages hosts these static builds with global CDN capabilities, making sure fast loads regardless of visitor location (source: GitHub Pages features). It handles scaling automatically, removing the need to manage server capacity or worry about traffic spikes.
 
 A specific utility involves managing legacy URLs via custom redirects. Configuring rules maps old paths to new content. This is useful for integrating tools like `/go/ollama/` or `/go/hugo/` into a unified navigation structure without cluttering the main site with deep links (source: GitHub Pages routing documentation).
 
@@ -48,12 +48,12 @@ The combination of `/go/ollama/`, `/go/hugo/`, `/go/github-pages/`, `/go/mlx-aud
 
 ## Desk gear that actually helps a 16 GB Mac mini (affiliate)
 
-If model files and drafts are fighting the internal SSD, external NVMe via a Mac mini dock is the practical upgrade — not a bigger cloud bill.
+If model files and drafts are fighting the internal SSD, external NVMe via a Mac mini dock is the practical upgrade, not a bigger cloud bill.
 
-- [UGREEN Mac mini dock with NVMe slot](/go/ugreen-mac-mini-dock/) (affiliate) — ports + model-library drive in one stand.
-- [Satechi Mac mini hub & stand](/go/satechi-mac-mini-hub/) (affiliate) — design-matched alternative.
-- [Samsung T7 Shield portable SSD](/go/samsung-t7-shield/) (affiliate) — fast offload for GGUF libraries when a full dock is overkill.
-- UK readers: [UGREEN on Amazon.co.uk](/go/ugreen-mac-mini-dock-uk/) (placeholder — Associates tag lands after UK approval).
+- [UGREEN Mac mini dock with NVMe slot](/go/ugreen-mac-mini-dock/) (affiliate): ports + model-library drive in one stand.
+- [Satechi Mac mini hub & stand](/go/satechi-mac-mini-hub/) (affiliate): design-matched alternative.
+- [Samsung T7 Shield portable SSD](/go/samsung-t7-shield/) (affiliate): fast offload for GGUF libraries when a full dock is overkill.
+- UK readers: [UGREEN on Amazon.co.uk](/go/ugreen-mac-mini-dock-uk/) (placeholder: Associates tag lands after UK approval).
 
 Disclosure: as an Amazon Associate I earn from qualifying purchases. See [/disclosure/](/disclosure/).
 

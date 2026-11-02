@@ -1,5 +1,5 @@
 ---
-title: "Soft-cite discipline — filling empty [CITE:] without inventing sources"
+title: "Soft-cite discipline — filling empty citation placeholders without inventing sources"
 date: 2026-10-25T23:42:48+05:30
 draft: false
 slug: "soft-cite-discipline"
@@ -35,20 +35,20 @@ The most effective workflow for maintaining integrity is a clear division of lab
 
 To prevent the accidental invention of URLs, we can implement a structural guardrail using an allow-list mechanism for internal links. In our publishing stack, we restrict direct linking to only those slugs defined in our `links.csv` file. We achieve this by enforcing a `/go/` prefix on all hyperlinks within the content.
 
-This constraint ensures that citations must resolve only to pre-approved paths. If an AI model attempts to invent a URL for a source that does not exist in our system, it cannot generate a valid `/go/` link because the slug is not present in the allowed list. This forces the model to either leave the citation empty (triggering a human review) or use a known, verified internal path.
+This constraint makes sure that citations must resolve only to pre-approved paths. If an AI model attempts to invent a URL for a source that does not exist in our system, it cannot generate a valid `/go/` link because the slug is not present in the allowed list. This forces the model to either leave the citation empty (triggering a human review) or use a known, verified internal path.
 
 For example, if we are discussing local deployment options, we can safely link to our documentation using Ollama (`/go/ollama`). Similarly, if we discuss our static site generator configuration, we reference Hugo (`/go/hugo`). This approach prevents the AI from hallucinating arbitrary URLs or creating non-existent internal pages. It acts as a hard boundary: if the link is not in the list, it cannot be rendered.
 
-This mechanism is particularly useful when integrating with deployment platforms like GitHub Pages. By ensuring that all outgoing links are pre-validated slugs, we reduce the risk of broken links or malicious redirects in the final build. It shifts the burden of URL validity from the probabilistic model to a deterministic configuration file. However, one must remember that this list is merely an allow-list; it does not inherently validate external facts, only internal navigation paths.
+This mechanism is particularly useful when integrating with deployment platforms like GitHub Pages. By making sure that all outgoing links are pre-validated slugs, we reduce the risk of broken links or malicious redirects in the final build. It shifts the burden of URL validity from the probabilistic model to a deterministic configuration file. However, one must remember that this list is merely an allow-list; it does not inherently validate external facts, only internal navigation paths.
 
 ## Dry Hugo and the human gate
 
-Therefore, no article should reach the staging environment without manual verification of all `` entries. The "human gate" must occur before the build is pushed. We must ensure that every placeholder has been either resolved with a verified source or removed entirely. Relying on the build process alone to catch factual errors is a critical failure mode. Automation speeds up the compilation, but it cannot replace the cognitive verification required to own the truth.
+Therefore, no article should reach the staging environment without manual verification of all `` entries. The "human gate" must occur before the build is pushed. We must make sure that every placeholder has been either resolved with a verified source or removed entirely. Relying on the build process alone to catch factual errors is a critical failure mode. Automation speeds up the compilation, but it cannot replace the cognitive verification required to own the truth.
 
 ## Conclusion: Discipline over automation
 
 The path to reliable output in an automated world requires discipline over pure automation. We must accept that local-AI models are powerful drafters but unreliable fact-checkers. By adopting a soft-cite discipline where empty `` tags are treated as mandatory flags for human review, we maintain integrity without sacrificing speed.
 
-We use extract-claims worksheets not as proof, but as roadmaps for verification. We use technical constraints like the `/go/` allow-list to prevent invented URLs, ensuring that every link points to a known entity in our `links.csv`. Whether we are discussing the nuances of running models on Apple silicon, configuring Hugo locally, or deploying via GitHub Pages, the underlying principle remains the same: the machine suggests, but the human decides.
+We use extract-claims worksheets not as proof, but as roadmaps for verification. We use technical constraints like the `/go/` allow-list to prevent invented URLs, making sure that every link points to a known entity in our `links.csv`. Whether we are discussing the nuances of running models on Apple silicon, configuring Hugo locally, or deploying via GitHub Pages, the underlying principle remains the same: the machine suggests, but the human decides.
 
-In this ecosystem, bots fill hints and humans verify facts. Automation is a tool for amplifying our reach and efficiency, not a replacement for our responsibility. The final reminder stands firm: while automation speeds up drafting, humans must own the truth. Only through rigorous, manual verification of every citation hint can we ensure that our content remains credible, accurate, and trustworthy.
+In this ecosystem, bots fill hints and humans verify facts. Automation is a tool for amplifying our reach and efficiency, not a replacement for our responsibility. The final reminder stands firm: while automation speeds up drafting, humans must own the truth. Only through rigorous, manual verification of every citation hint can we make sure that our content remains credible, accurate, and trustworthy.

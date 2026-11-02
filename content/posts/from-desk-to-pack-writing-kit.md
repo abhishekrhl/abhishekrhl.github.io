@@ -21,7 +21,7 @@ A reusable kit answers five questions before any model runs:
 2. Which local model writes, and which only extracts or audits?
 3. How do we reject AI filler before Hugo sees the draft?
 4. Which `/go/<slug>/` paths are real rows in `links.csv`?
-5. Who signs off — human gate, or auto-publish only above a score threshold?
+5. Who signs off: human gate, or auto-publish only above a score threshold?
 
 If any answer is fuzzy, stop. Shipping volume without those rails is how you get 50 thin posts and zero trust.
 
@@ -58,7 +58,7 @@ Ship these four beside `~/AI/bin/askai`:
 | `deslop-rewrite.md` | write | Delete-first rewrite ≤ 90% length |
 | `delete-first-shorten.md` | write | Hit ≤ 0.9×N when rewrite lands hot |
 
-Add hook / flow / specificity / CTA honesty prompts once the [quality rubric](https://abhishekrhl.github.io/) gates settle — the local copy lives at `~/AI/notes/deslop-quality-rubric-2026-10-25.md` on the desk.
+Add hook / flow / specificity / CTA honesty prompts once the [quality rubric](https://abhishekrhl.github.io/) gates settle, the local copy lives at `~/AI/notes/deslop-quality-rubric-2026-10-25.md` on the desk.
 
 Balanced tier on this machine: chat and extract on `qwen3.5:9b`; reserve heavier write models for nights when unified memory is free and Freqtrade `dry_run` is left alone.
 
@@ -66,11 +66,11 @@ Balanced tier on this machine: chat and extract on `qwen3.5:9b`; reserve heavier
 
 Do not “hope” the draft is fine. Score it:
 
-1. **Hook** — first 2 sentences name the reader’s constraint (RAM, noise, privacy) and a concrete outcome.
-2. **Flow** — each H2 advances one decision; no restating the 16 GB lecture three times.
-3. **Specificity** — real paths, model tags, IST windows, or measured limits; no “studies show”.
-4. **CTA honesty** — only `/go/` slugs that exist in `links.csv`; placeholders OK until Associates UK lands; never invent ASINs.
-5. **Claims** — run `extract-claims.sh`; empty `[CITE:]` blocks human review.
+1. **Hook**: first 2 sentences name the reader’s constraint (RAM, noise, privacy) and a concrete outcome.
+2. **Flow**: each H2 advances one decision; no restating the 16 GB lecture three times.
+3. **Specificity**: real paths, model tags, IST windows, or measured limits; no “studies show”.
+4. **CTA honesty**: only `/go/` slugs that exist in `links.csv`; placeholders OK until Associates UK lands; never invent ASINs.
+5. **Claims**: run `extract-claims.sh`; an empty citation placeholder blocks human review.
 
 Auto-publish only if slop score ≤ 3 and all five gates pass. Otherwise the draft stays in `AI-outputs/` until a human gate.
 
@@ -89,22 +89,22 @@ See [affiliate allow-list hygiene](/posts/affiliate-allow-list-hygiene/) for why
 
 - Fake reviews or sockpuppet promotion
 - Amazon Special Links inside ebook PDFs
-- Overnight video (LTX) overlapping prose hours — keep that to 01:00–06:30 IST
+- Overnight video (LTX) overlapping prose hours: keep that to 01:00–06:30 IST
 - Stopping Freqtrade `dry_run` to free RAM for a write job
 
 ## Next steps in the series
 
-Once the pack is assembled, schedule it: [LaunchAgents and the quiet desk schedule](/posts/launchagents-quiet-desk-schedule/), [overnight windows](/posts/overnight-windows-quiet-desks/), and [anti-patterns](/posts/anti-patterns-quiet-desk/). The goal is a sustainable cadence of posts readers finish — not a raw 50/day firehose.
+Once the pack is assembled, schedule it: [LaunchAgents and the quiet desk schedule](/posts/launchagents-quiet-desk-schedule/), [overnight windows](/posts/overnight-windows-quiet-desks/), and [anti-patterns](/posts/anti-patterns-quiet-desk/). The goal is a sustainable cadence of posts readers finish, not a raw 50/day firehose.
 
 ---
 
 ## Desk gear that actually helps a 16 GB Mac mini (affiliate)
 
-If model files and drafts are fighting the internal SSD, external NVMe via a Mac mini dock is the practical upgrade — not a bigger cloud bill.
+If model files and drafts are fighting the internal SSD, external NVMe via a Mac mini dock is the practical upgrade, not a bigger cloud bill.
 
-- [UGREEN Mac mini dock with NVMe slot](/go/ugreen-mac-mini-dock/) (affiliate) — ports + model-library drive in one stand.
-- [Satechi Mac mini hub & stand](/go/satechi-mac-mini-hub/) (affiliate) — design-matched alternative.
-- [Samsung T7 Shield portable SSD](/go/samsung-t7-shield/) (affiliate) — fast offload for GGUF libraries when a full dock is overkill.
-- UK readers: [UGREEN on Amazon.co.uk](/go/ugreen-mac-mini-dock-uk/) (placeholder — Associates tag lands after UK approval).
+- [UGREEN Mac mini dock with NVMe slot](/go/ugreen-mac-mini-dock/) (affiliate): ports + model-library drive in one stand.
+- [Satechi Mac mini hub & stand](/go/satechi-mac-mini-hub/) (affiliate): design-matched alternative.
+- [Samsung T7 Shield portable SSD](/go/samsung-t7-shield/) (affiliate): fast offload for GGUF libraries when a full dock is overkill.
+- UK readers: [UGREEN on Amazon.co.uk](/go/ugreen-mac-mini-dock-uk/) (placeholder: Associates tag lands after UK approval).
 
 Disclosure: as an Amazon Associate I earn from qualifying purchases. See [/disclosure/](/disclosure/).
