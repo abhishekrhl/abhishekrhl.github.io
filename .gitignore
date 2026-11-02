@@ -1,1 +1,5 @@
 /public/
+
+# secrets — never commit/publish
+secrets.env
+*.secrets*

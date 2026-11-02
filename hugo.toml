@@ -1,3 +1,4 @@
+ignoreFiles = ['secrets\.env$', '\.secrets']  # never publish secrets
 baseURL = "https://abhishekrhl.github.io/"
 languageCode = "en-gb"
 title = "Quiet Local AI Desk"
