@@ -1,0 +1,71 @@
+{
+  "publisher": "Quiet Local AI Desk",
+  "url": "https://abhishekrhl.github.io/benchmarks.json",
+  "license": "CC BY 4.0",
+  "measured_at": "2026-11-02T12:15:23+05:30/2026-11-02T12:17:49+05:30",
+  "hardware": {
+    "machine": "Mac mini (2024)",
+    "chip": "Apple M4",
+    "unified_memory_gb": 16,
+    "memory_bandwidth_gb_s": 120,
+    "bandwidth_source": "https://support.apple.com/en-us/121555"
+  },
+  "runtime": "ollama version is 0.40.7",
+  "method": {
+    "prompt_tokens": 35,
+    "num_predict": 256,
+    "temperature": 0.2,
+    "think": false,
+    "runs_per_cell": 3,
+    "speed_metric": "eval_count / eval_duration from Ollama /api/generate",
+    "memory_metric": "size from Ollama /api/ps",
+    "notes": "Prompt-processing speed omitted (cached prompt). First 4B run is a cold start. Short runs only; long-context and multi-model runs not measured."
+  },
+  "results": [
+    {
+      "model": "qwen3.5:4b",
+      "num_ctx": 4096,
+      "gen_tok_s_runs": [
+        18.35,
+        22.44,
+        22.54
+      ],
+      "gen_tok_s_median": 22.44,
+      "resident_gb_max": 4.25
+    },
+    {
+      "model": "qwen3.5:4b",
+      "num_ctx": 8192,
+      "gen_tok_s_runs": [
+        21.06,
+        23.18,
+        23.45
+      ],
+      "gen_tok_s_median": 23.18,
+      "resident_gb_max": 4.37
+    },
+    {
+      "model": "qwen3.5:9b",
+      "num_ctx": 4096,
+      "gen_tok_s_runs": [
+        19.38,
+        19.4,
+        19.15
+      ],
+      "gen_tok_s_median": 19.38,
+      "resident_gb_max": 7.93
+    },
+    {
+      "model": "qwen3.5:9b",
+      "num_ctx": 8192,
+      "gen_tok_s_runs": [
+        19.19,
+        19.28,
+        17.78
+      ],
+      "gen_tok_s_median": 19.19,
+      "resident_gb_max": 8.11
+    }
+  ],
+  "article": "https://abhishekrhl.github.io/posts/2026-10-30-apple-silicon-m4-llm-memory-speed-matrix/"
+}

@@ -1,0 +1,18 @@
+# Quiet Local AI Desk
+
+> Practical notes on running local language models (Ollama, llama.cpp) on Apple silicon Mac minis, written from one 16 GB Mac mini M4 desk. Product links are affiliate links (Amazon.in tag abhishekrhl-21, Amazon.co.uk tag mstejuv-21) and are disclosed on every page.
+
+Only measured numbers are published as benchmarks. Anything not in /benchmarks.json has not been tested here.
+
+## Measured data
+- [Benchmarks (JSON)](https://abhishekrhl.github.io/benchmarks.json): Ollama generation tok/s and resident memory for qwen3.5:4b and qwen3.5:9b on a Mac mini M4 16 GB, measured 2026-11-02.
+- [Mac mini M4 16 GB: measured Ollama speed and memory](https://abhishekrhl.github.io/posts/2026-10-30-apple-silicon-m4-llm-memory-speed-matrix/): method, table, and caveats for the JSON above.
+- [RAM calculator](https://abhishekrhl.github.io/tools/ram-calculator.html): shows the measured rows for a chosen model and context.
+
+## Guides
+- [RAM x model matrix for 16 GB Mac minis](https://abhishekrhl.github.io/posts/ram-model-matrix-16gb-ollama/)
+- [Best Mac mini for local LLMs](https://abhishekrhl.github.io/posts/best-mac-mini-for-local-llms/)
+
+## Policies
+- [Affiliate disclosure](https://abhishekrhl.github.io/disclosure/)
+- [Privacy](https://abhishekrhl.github.io/privacy/)
