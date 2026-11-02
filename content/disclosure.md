@@ -8,10 +8,10 @@ description: "How this site earns money — Amazon Associates, other affiliate p
 
 # Affiliate & commercial disclosure
 
-**Last updated:** 26 October 2026 (Asia/Calcutta).  
-**Operator:** Abhishek Kumar  
+**Last updated:** 2 November 2026 (Asia/Calcutta).  
+**Operator:** LogicatInc  
 **Site:** https://abhishekrhl.github.io/ (Quiet Local AI Desk).  
-**Contact:** [abhishek.isi2008@gmail.com](mailto:abhishek.isi2008@gmail.com)
+**Contact:** via GitHub, [github.com/abhishekrhl](https://github.com/abhishekrhl)
 
 This page explains material connections between this site and merchants. It is intended to meet expectations under:
 
@@ -112,6 +112,6 @@ Tracked or curated outbound links use paths like `/go/<slug>/`. On GitHub Pages 
 
 ## Contact
 
-Questions about disclosures: [abhishek.isi2008@gmail.com](mailto:abhishek.isi2008@gmail.com).
+Questions about disclosures: open an issue or message via GitHub, [github.com/abhishekrhl](https://github.com/abhishekrhl).
 
 This page will be updated when programmes are approved, when analytics is added, or when disclosure rules change.

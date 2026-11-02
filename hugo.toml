@@ -2,6 +2,10 @@ ignoreFiles = ['secrets\.env$', '\.secrets']  # never publish secrets
 baseURL = "https://abhishekrhl.github.io/"
 languageCode = "en-gb"
 title = "Quiet Local AI Desk"
+copyright = "© LogicatInc"
+
+[author]
+  name = "LogicatInc"
 disableKinds = ["taxonomy", "term"]
 
 [minify]
@@ -9,6 +13,8 @@ disableKinds = ["taxonomy", "term"]
     keepQuotes = true
 
 [params]
+  author = "LogicatInc"
+  company = "LogicatInc"
   description = "Local AI on Apple silicon — practical notes, affiliate-disclosed recommendations."
   affiliateDisclosure = "As an Amazon Associate I earn from qualifying purchases. Some links are affiliate links — I may earn a commission at no extra cost to you. See /disclosure/."
   showAffiliateDisclosure = true

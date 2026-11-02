@@ -8,8 +8,8 @@ description: "Minimal privacy notice for this static blog."
 
 # Privacy policy
 
-**Last updated:** 1 November 2026 (Asia/Calcutta).  
-**Operator:** Abhishek Kumar.  
+**Last updated:** 2 November 2026 (Asia/Calcutta).  
+**Operator:** LogicatInc.  
 **Site:** https://abhishekrhl.github.io/.  
 **Contact:** via GitHub, [github.com/abhishekrhl](https://github.com/abhishekrhl).
 

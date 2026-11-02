@@ -25,11 +25,11 @@ gtag('js', new Date());
 gtag('config', '{{ .Site.Params.analyticsSiteId }}');
 </script>
 {{ end }}
-{{ $pub := dict "@type" "Organization" "name" "Quiet Local AI Desk" "url" .Site.BaseURL }}
+{{ $pub := dict "@type" "Organization" "name" .Site.Params.author "url" .Site.BaseURL }}
 {{ if .IsHome }}
 <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "WebSite" "name" .Site.Title "url" .Site.BaseURL "description" .Site.Params.description "publisher" $pub | jsonify | safeJS }}</script>
 {{ else if and .IsPage (eq .Section "posts") }}
-<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BlogPosting" "headline" .Title "description" ((or .Description .Summary .Site.Params.description) | plainify) "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "url" .Permalink "mainEntityOfPage" .Permalink "author" (dict "@type" "Person" "name" "Abhishek Kumar") "publisher" $pub | jsonify | safeJS }}</script>
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BlogPosting" "headline" .Title "description" ((or .Description .Summary .Site.Params.description) | plainify) "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "url" .Permalink "mainEntityOfPage" .Permalink "author" (dict "@type" "Organization" "name" .Site.Params.author) "publisher" $pub | jsonify | safeJS }}</script>
 {{ end }}
 </head>
 <body>
@@ -44,6 +44,7 @@ gtag('config', '{{ .Site.Params.analyticsSiteId }}');
   {{ if .Site.Params.showAffiliateDisclosure }}
   <p>{{ .Site.Params.affiliateDisclosure }}</p>
   {{ end }}
+  <p>© {{ now.Year }} {{ .Site.Params.author }} · Quiet Local AI Desk</p>
   <p><a href="{{ "/disclosure/" | relURL }}">Disclosure</a> · <a href="{{ "/privacy/" | relURL }}">Privacy</a></p>
 </footer>
 </body>
