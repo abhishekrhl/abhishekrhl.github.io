@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Bank Stress-Testing Scenario & Coherence Calculator (Free Lite Edition)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 920px; margin: 28px auto; padding: 0 20px; color: #0f172a; background: #f8fafc; line-height: 1.55; }
+  .card { background: #fff; border: 1px solid #cbd5e1; border-radius: 10px; padding: 20px; margin-bottom: 20px; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  label { display: block; font-weight: 600; font-size: 0.86rem; margin-bottom: 4px; }
+  input { width: 100%; padding: 8px; border: 1px solid #94a3b8; border-radius: 6px; font-size: 0.95rem; box-sizing: border-box; }
+  table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 0.9rem; }
+  th, td { border: 1px solid #e2e8f0; padding: 9px; text-align: left; }
+  th { background: #f1f5f9; }
+  .pro-lock { background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border: 2px dashed #2563eb; border-radius: 10px; padding: 18px; margin-top: 16px; }
+  .cta { display: inline-block; background: #1d4ed8; color: #fff; padding: 9px 16px; border-radius: 6px; text-decoration: none; font-weight: 700; margin-top: 8px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1 style="margin-top:0;">Narrative-to-Shock Bank Stress Calculator (Free Lite Edition)</h1>
+  <p>Test the direction and cross-factor coherence of a simple macro shock, for free.</p>
+  <div class="grid">
+    <div><label>Regional GDP Shock (%)</label><input id="gdp" type="number" value="-15" oninput="recalc()"/></div>
+    <div><label>Secondary CRE Shock (%)</label><input id="cre" type="number" value="-30" oninput="recalc()"/></div>
+    <div><label>HY Spread Widening (bps)</label><input id="spread" type="number" value="200" oninput="recalc()"/></div>
+  </div>
+  <table>
+    <thead><tr><th>Transmission Channel</th><th>Baseline</th><th>Stressed Output</th><th>Coherence Check</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <p style="font-size:0.85rem;color:#475569;">Educational illustration with stylised, fictional coefficients. Not calibrated to any institution, not a regulatory model, not approved by any supervisor, and not advice. Runs offline; nothing is sent anywhere.</p>
+  <div class="pro-lock">
+    <h3 style="margin-top:0; color:#1e3a8a;">Want the method behind these checks?</h3>
+    <p style="margin:4px 0;"><em>Narrative to Shock</em> is a field manual on turning a scenario narrative into coherent, calibrated shocks, built on public supervisory sources and a fictional bank.</p>
+    <a class="cta" href="https://abhishekisi.gumroad.com/l/ayink">Get the Narrative to Shock field manual ($49)</a>
+  </div>
+</div>
+<script>
+function recalc() {
+  const gdp = parseFloat(document.getElementById('gdp').value || 0);
+  const cre = parseFloat(document.getElementById('cre').value || 0);
+  const spread = parseFloat(document.getElementById('spread').value || 0);
+  const pd = Math.min(35, 2.0 + Math.abs(Math.min(0, gdp)) * 0.28);
+  const lgd = Math.min(90, 35.0 + Math.abs(Math.min(0, cre)) * 0.55);
+  const bad = '<span style="color:#b91c1c;font-weight:700;">', good = '<span style="color:#15803d;font-weight:700;">PASS: Coherent</span>';
+  const cohPd = (gdp < -5 && spread <= 0) ? bad + 'FAIL: spreads should widen in a deep downturn</span>' : good;
+  const cohLgd = (gdp <= -10 && cre > -5) ? bad + 'WARN: flat CRE in a deep recession understates collateral haircuts</span>' : good;
+  document.getElementById('rows').innerHTML = `
+    <tr><td>SME Corporate Point-in-Time PD</td><td>2.00%</td><td><strong>${pd.toFixed(2)}%</strong></td><td>${cohPd}</td></tr>
+    <tr><td>Secondary CRE Downturn LGD</td><td>35.0%</td><td><strong>${lgd.toFixed(1)}%</strong></td><td>${cohLgd}</td></tr>
+  `;
+}
+recalc();
+</script>
+</body>
+</html>
