@@ -38,7 +38,7 @@ Keep prose work off the LTX and Freqtrade lanes. A layout that has held up:
 ~/Downloads/AI-outputs/
   local-ai-blog-affiliate/   # briefs, drafts, claims worksheets
   qa/                        # extract-claims.sh output
-~/AI/tmp/publish/abhishekrhl.github.io/
+~/path/to/site/
   content/posts/             # Hugo markdown that ships
   content/go/                # /go/ stubs
   links.csv                  # allow-list only
@@ -58,7 +58,7 @@ Ship these four beside `~/AI/bin/askai`:
 | `deslop-rewrite.md` | write | Delete-first rewrite ≤ 90% length |
 | `delete-first-shorten.md` | write | Hit ≤ 0.9×N when rewrite lands hot |
 
-Add hook / flow / specificity / CTA honesty prompts once the [quality rubric](https://abhishekrhl.github.io/) gates settle, the local copy lives at `~/AI/notes/deslop-quality-rubric-2026-10-25.md` on the desk.
+Add hook / flow / specificity / CTA honesty prompts once the [quality rubric](/) gates settle, the local copy lives at `~/AI/notes/deslop-quality-rubric-2026-10-25.md` on the desk.
 
 Balanced tier on this machine: chat and extract on `qwen3.5:9b`; reserve heavier write models for nights when unified memory is free and Freqtrade `dry_run` is left alone.
 
@@ -81,7 +81,7 @@ Affiliate links are a closed set. The pack includes:
 - `links.csv` rows → `scripts/generate-go-redirects.py` → `static/_redirects` + `content/go/*.md`
 - In-body links only as `/go/<slug>/` (trailing slash)
 - One disclosure block at the top; a short gear box at the end is enough
-- Amazon.in tag `abhishekrhl-21` where approved; UK URLs stay untagged placeholders
+- Amazon.in: your Associates tag where approved; UK URLs stay untagged placeholders
 
 See [affiliate allow-list hygiene](/posts/affiliate-allow-list-hygiene/) for why invented slugs fail QA.
 

@@ -64,7 +64,7 @@ Readers buy when the post taught them something and the link matches the advice.
 
 - Disclose once at the top; repeat briefly near a product box if needed
 - Never invent `/go/` slugs: [allow-list hygiene](/posts/affiliate-allow-list-hygiene/)
-- Amazon.in tag `abhishekrhl-21` where approved; UK stays placeholder until Associates approval
+- Amazon.in: your Associates tag where approved; UK stays placeholder until Associates approval
 - No fake reviews; no sockpuppet threads; promote by answering real questions with disclosure
 
 ## Start here, then go deeper

@@ -27,8 +27,8 @@ Your Hugo build process should fail immediately if any referenced link in the co
 
 ```csv
 slug,url,note
-ugreen-mac-mini-dock,https://www.amazon.in/dp/B0DSJ5ZH8F?tag=abhishekrhl-21,Amazon.in UGREEN Mac mini dock
-samsung-t7-shield,https://www.amazon.in/s?k=Samsung+T7+Shield+2TB&tag=abhishekrhl-21,Amazon.in T7 Shield search stub
+ugreen-mac-mini-dock,https://www.amazon.in/dp/B0DSJ5ZH8F?tag=YOURTAG-21,Amazon.in UGREEN Mac mini dock
+samsung-t7-shield,https://www.amazon.in/s?k=Samsung+T7+Shield+2TB&tag=YOURTAG-21,Amazon.in T7 Shield search stub
 checklist,https://payhip.com/b/CGPy9,Payhip free Quiet Local AI Desk checklist
 ```
 
