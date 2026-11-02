@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mac mini local LLM memory check (measured data) | Quiet Local AI Desk</title>
+<meta name="description" content="Check measured Ollama memory and speed for qwen3.5 4B and 9B on a Mac mini M4 16 GB, and how much unified memory is left on other configurations.">
+<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;line-height:1.5;color:#1a1a1a}select{font-size:1rem;padding:.3rem;margin:.3rem 0 1rem}.card{border:1px solid #ddd;border-radius:8px;padding:1rem;margin:1rem 0}.ad{font-size:.75rem;background:#eee;padding:0 .3rem;border-radius:3px}small{color:#555}</style></head><body>
+<p><a href="/">Quiet Local AI Desk</a></p>
+<h1>Mac mini local LLM memory check</h1>
+<p><small>Affiliate disclosure: links marked <span class="ad">Ad</span> are affiliate links. As an Amazon Associate I earn from qualifying purchases. <a href="/disclosure/">Disclosure</a>.</small></p>
+<p>This tool only shows numbers I measured. Speeds exist for the Mac mini M4 16 GB only; for other memory sizes it shows how much memory the model leaves free, not a speed.</p>
+<label>Mac mini memory<br><select id="ram"><option value="16">M4, 16 GB (measured machine)</option><option value="24">24 GB</option><option value="32">32 GB</option><option value="48">48 GB</option><option value="64">64 GB</option></select></label><br>
+<label>Model<br><select id="model"><option>qwen3.5:4b</option><option selected>qwen3.5:9b</option></select></label><br>
+<label>Context (num_ctx)<br><select id="ctx"><option>4096</option><option selected>8192</option></select></label>
+<div class="card" id="out"></div>
+<p><small>Source: <a href="/benchmarks.json">benchmarks.json</a> (Ollama, 3 short runs per cell, 2 Nov 2026). Method and caveats: <a href="/posts/2026-10-30-apple-silicon-m4-llm-memory-speed-matrix/">measured post</a>. macOS itself needs several GB of the remaining memory; I have not measured an exact figure. Buy links go to the current models (Mac mini M6 for 16, 24 and 32 GB; M5 Pro for 48 and 64 GB), which I have not measured. Apple lists the M6 at 153 GB/s (16 GB) or 170 GB/s (24 and 32 GB), and the M5 Pro at 307 GB/s, against 120 GB/s for the M4 I measured.</small></p>
+<script>
+const D={"qwen3.5:4b|4096": [22.44, 4.25], "qwen3.5:4b|8192": [23.18, 4.37], "qwen3.5:9b|4096": [19.38, 7.93], "qwen3.5:9b|8192": [19.19, 8.11]};
+const cur={16:"M6 16 GB",24:"M6 24 GB",32:"M6 32 GB",48:"M5 Pro 48 GB",64:"M5 Pro 64 GB"};
+const slug={16:"mac-mini-m4-16gb",24:"mac-mini-m4-24gb",32:"mac-mini-m4-32gb",48:"mac-mini-m4-pro-48gb",64:"mac-mini-m4-pro-64gb"};
+function upd(){const r=+ram.value,m=model.value,c=ctx.value,[tok,gb]=D[m+"|"+c];
+let h="<p><strong>"+m+" at "+c+" context:</strong> about "+gb.toFixed(1)+" GB resident (measured).</p>";
+h+="<p>Left for macOS and other apps on a "+r+" GB Mac mini: about "+(r-gb).toFixed(1)+" GB.</p>";
+h+=r==16?"<p>Measured generation speed: about "+tok.toFixed(1)+" tokens/s (median of 3).</p>":"<p>Speed: not measured on this configuration.</p>";
+h+='<p><a href="/go/'+slug[r]+'/" rel="sponsored nofollow">Current Mac mini '+cur[r]+' on Amazon.in</a> <span class="ad">Ad</span> · <a href="/go/'+slug[r]+'-uk/" rel="sponsored nofollow">Amazon.co.uk</a> <span class="ad">Ad</span></p>';
+out.innerHTML=h}
+[ram,model,ctx].forEach(e=>e.onchange=upd);upd();
+</script></body></html>
