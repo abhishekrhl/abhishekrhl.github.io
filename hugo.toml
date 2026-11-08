@@ -4,8 +4,6 @@ languageCode = "en-gb"
 title = "Quiet Local AI Desk"
 copyright = "© LogicatInc"
 
-[author]
-  name = "LogicatInc"
 disableKinds = ["taxonomy", "term"]
 
 [minify]
