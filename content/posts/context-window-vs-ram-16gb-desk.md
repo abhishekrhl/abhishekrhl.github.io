@@ -11,7 +11,7 @@ description: "Local AI desk note — quality-gated draft."
 
 # Context Window vs RAM on a 16 GB Apple Silicon Desk
 
-Running large language models locally on a 16 GB Apple Silicon Mac mini requires balancing context window size against available memory. With the OS and browser consuming significant RAM, the practical limit for inference is often lower than the theoretical maximum of your physical hardware. This guide outlines how to configure Qwen3.5 (4B/9B) using Ollama to ensure stable operation alongside other tasks like Hugo.
+Running large language models locally on a 16 GB Apple Silicon Mac mini requires balancing context window size against available memory. With the OS and browser consuming significant RAM, the practical limit for inference is often lower than the theoretical maximum of your physical hardware. This guide outlines how to configure Qwen3.5 (4B/9B) using Ollama to make sure stable operation alongside other tasks like Hugo.
 
 ## Memory Budgeting on 16 GB
 
@@ -23,7 +23,7 @@ A 16 GB Mac mini must reserve memory for macOS, GUI applications, and the browse
 
 ## Qwen3.5 Configuration Matrix (4B / 9B)
 
-The following matrix estimates viable context window sizes (`num_ctx`) for Qwen3.5 variants on a 16 GB system, assuming a standard browser environment. Values are derived from `ollama ps` output patterns and community benchmarks; specific hardware variance may apply [CITE:].
+The following matrix estimates viable context window sizes (`num_ctx`) for Qwen3.5 variants on a 16 GB system, assuming a standard browser environment. Values are estimates based on [`ollama ps`](https://docs.ollama.com/faq) output on our desk, and your hardware may differ.
 
 | Model Variant | Est. Base RAM Usage | Max Safe `num_ctx` | Recommended `num_ctx` | Failure Mode if Exceeded |
 | :--- | :--- | :--- | :--- | :--- |
@@ -34,7 +34,7 @@ The following matrix estimates viable context window sizes (`num_ctx`) for Qwen3
 
 ## Operational Setup via Ollama
 
-To run these models locally, ensure Ollama is installed and configured for your architecture.
+To run these models locally, make sure Ollama is installed and configured for your architecture.
 
 1.  **Pull the model:**
     ```bash

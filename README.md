@@ -1,6 +1,6 @@
 # Local AI Writing Desk
 
-Hugo site for [abhishekrhl.github.io](https://abhishekrhl.github.io/).
+Hugo site (published by LogicatInc) for [abhishekrhl.github.io](https://abhishekrhl.github.io/).
 
 - Affiliate disclosure: `/disclosure/`
 - Privacy: `/privacy/`

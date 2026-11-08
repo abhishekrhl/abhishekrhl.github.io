@@ -9,7 +9,7 @@ description: "Resolution, field of view, mics and privacy shutters compared acro
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
 Laptop webcams are usually the weakest part of a work-from-home setup, and the upgrade doesn't have to be expensive. The three things that change how you look and sound on calls are resolution, low-light correction and the microphone. This guide compares three Logitech webcams on those.
 
@@ -41,11 +41,11 @@ Logitech lists 1080p/30 fps, a 78° field of view, autofocus with a five-element
 
 ## Logitech C270
 
-720p/30 fps, a narrow 55° view, a mic rated for voices up to 1.5 metres, a universal clip and broad OS support including ChromeOS. *Pick it* for occasional calls or a second machine. *Skip it* if you share frame with a colleague — 55° is tight.
+720p/30 fps, a narrow 55° view, a mic rated for voices up to 1.5 metres, a universal clip and broad OS support including ChromeOS. *Pick it* for occasional calls or a second machine. *Skip it* if you share frame with a colleague, 55° is tight.
 
 ## What the listings don't tell you
 
-- **Lighting matters more than the camera.** A lamp in front of you does more than any resolution bump — see our monitor light bar guide.
+- **Lighting matters more than the camera.** A lamp in front of you does more than any resolution bump: see our monitor light bar guide.
 - **Connector.** These use USB-A; laptops with only USB-C need an adapter or hub.
 - **Mic vs headset.** A headset mic will usually beat any webcam mic in a noisy room.
 

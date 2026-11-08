@@ -9,7 +9,7 @@ description: "Which GaN charger wattage and which USB-C hub ports you actually n
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
 Most people overbuy one and underbuy the other: a giant charger for a phone, and a cheap hub that can't drive their monitor at 60 Hz. The two numbers that matter are charger wattage (match it to your hungriest device) and hub HDMI refresh rate plus pass-through power. This guide sorts five products on those.
 
@@ -31,9 +31,9 @@ Most people overbuy one and underbuy the other: a giant charger for a phone, and
 | Notable | Foldable; ActiveShield 2.0; 24-month warranty; cable not included | Samsung SFC 2.0; BIS approved; Made in India | Samsung SFC 2.0 and 3.0; AVS; BIS certified; Made in India |
 | Stores | IN + UK | IN | IN |
 
-**Anker 511 Nano 3.** Anker lists 30 W, a foldable plug, full-speed charging for iPhone Pro models and a 24-month warranty — and notes the cable is not included. *Pick it* for phones and tablets. *Skip it* as your only laptop charger.
+**Anker 511 Nano 3.** Anker lists 30 W, a foldable plug, full-speed charging for iPhone Pro models and a 24-month warranty: and notes the cable is not included. *Pick it* for phones and tablets. *Skip it* as your only laptop charger.
 
-**Stuffcool Numen 65.** Two USB-C ports each rated up to 65 W plus an 18 W USB-A, BIS-approved and Made in India. *Pick it* to charge a laptop and phone from one brick. Note: when two devices share a multi-port charger, total output is usually split — check the per-port table on the live page.
+**Stuffcool Numen 65.** Two USB-C ports each rated up to 65 W plus an 18 W USB-A, BIS-approved and Made in India. *Pick it* to charge a laptop and phone from one brick. Note: when two devices share a multi-port charger, total output is usually split: check the per-port table on the live page.
 
 **Stuffcool Numen 65C.** A single-port 65 W charger supporting Samsung Super Fast Charging 2.0 and 3.0 and AVS. *Pick it* if you have a recent Galaxy phone.
 
@@ -52,7 +52,7 @@ Most people overbuy one and underbuy the other: a giant charger for a phone, and
 ## What the listings don't tell you
 
 - **Pass-through isn't full wattage.** A hub keeps some power for itself; 85 W pass-through from a 100 W input is the norm.
-- **Your laptop's DisplayPort version** decides 4K30 versus 4K60 — check your laptop's spec page.
+- **Your laptop's DisplayPort version** decides 4K30 versus 4K60: check your laptop's spec page.
 - **Cables.** Neither the Anker charger nor most chargers include a cable; a cheap cable can cap speed.
 
 ## Bottom line

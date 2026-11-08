@@ -19,7 +19,7 @@ Internal storage on a 16 GB Mac mini is often consumed by the OS, virtual memory
 
 ## Symlink Setup
 
-To redirect Ollama without losing existing downloads, create a persistent symbolic link from the internal home directory to the external mount point. First, identify your external drive name using `diskutil list` and note its volume identifier (e.g., `/Volumes/MyNVMe`). Ensure the target directory exists on the external drive:
+To redirect Ollama without losing existing downloads, create a persistent symbolic link from the internal home directory to the external mount point. First, identify your external drive name using `diskutil list` and note its volume identifier (e.g., `/Volumes/MyNVMe`). Make sure the target directory exists on the external drive:
 
 ```bash
 mkdir -p /Volumes/MyNVMe/.ollama/models
@@ -32,7 +32,7 @@ rm -rf ~/.ollama/models
 ln -s /Volumes/MyNVMe/.ollama/models ~/.ollama/models
 ```
 
-Verify the link is active with `ls -l ~/.ollama/models`. If Ollama was running, it may have cached paths; restart the service or kill the runner (`killall ollama`) to ensure it recognises the new location immediately. Existing model files remain untouched on the external drive, preserving your downloads while shifting the logical path.
+Verify the link is active with `ls -l ~/.ollama/models`. If Ollama was running, it may have cached paths; restart the service or kill the runner (`killall ollama`) to make sure it recognises the new location immediately. Existing model files remain untouched on the external drive, preserving your downloads while shifting the logical path.
 
 ## The Eject Hazard
 
@@ -44,7 +44,7 @@ While an external NVMe connected via Thunderbolt 3 or 4 can approach internal SS
 
 ## Troubleshooting Common Pitfalls
 
-Permission errors often arise if the external drive is not mounted with user ownership. Run `sudo chown -R $(whoami) /Volumes/MyNVMe/.ollama` to correct ownership issues. If the symlink breaks after a reboot, it usually indicates the mount point did not persist; macOS does not automatically remount volumes at boot without explicit configuration in System Settings or launchd agents. A "mount point not found" error typically signals the drive was ejected unexpectedly while Ollama was active; check `dmesg` for I/O errors and ensure the runner is stopped before removal. For deeper configuration details, see our guide on [core environment variables](/go/ollama/).
+Permission errors often arise if the external drive is not mounted with user ownership. Run `sudo chown -R $(whoami) /Volumes/MyNVMe/.ollama` to correct ownership issues. If the symlink breaks after a reboot, it usually indicates the mount point did not persist; macOS does not automatically remount volumes at boot without explicit configuration in System Settings or launchd agents. A "mount point not found" error typically signals the drive was ejected unexpectedly while Ollama was active; check `dmesg` for I/O errors and make sure the runner is stopped before removal. For deeper configuration details, see our guide on [core environment variables](/go/ollama/).
 
 ## Further Reading
 
@@ -52,4 +52,4 @@ Pair this with [Best external SSD for Ollama models (UK)](/posts/best-external-s
 
 ## Next Steps
 
-Stop the runner before every eject, keep the volume APFS, and treat external storage as capacity insurance — not a free speed upgrade. If internal free space is already choking swaps, move models out first; buy a faster enclosure only after you measure real load latency on your cable and dock.
+Stop the runner before every eject, keep the volume APFS, and treat external storage as capacity insurance, not a free speed upgrade. If internal free space is already choking swaps, move models out first; buy a faster enclosure only after you measure real load latency on your cable and dock.

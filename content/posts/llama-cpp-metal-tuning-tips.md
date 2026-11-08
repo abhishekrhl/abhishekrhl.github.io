@@ -31,7 +31,7 @@ The most critical parameter for performance on Apple Silicon is the number of la
 
 For a 7B parameter model (roughly 5 GB in quantised form), you can typically offload all layers safely, as the remaining memory accommodates a reasonable context. However, with a 13B or larger model, you must be more conservative. If your chosen model requires 6 GB of RAM for weights, you have only 8–9 GB left for everything else. In this scenario, pushing `-ngl` to the maximum (e.g., `--n-gpu-layers 52`) might still cause swapping if the context is large.
 
-A practical approach is to set `-ngl` to match the total layer count of the model unless you are running a very long context. If you intend to maintain a context window of 4096 tokens or more, consider reducing `-ngl` by a few layers (e.g., setting it to `--n-gpu-layers 38` for a 52-layer model) to ensure the CPU handles the overflow without triggering memory pressure. This slight reduction in GPU parallelism often yields higher overall throughput because it prevents the system from swapping.
+A practical approach is to set `-ngl` to match the total layer count of the model unless you are running a very long context. If you intend to maintain a context window of 4096 tokens or more, consider reducing `-ngl` by a few layers (e.g., setting it to `--n-gpu-layers 38` for a 52-layer model) to make sure the CPU handles the overflow without triggering memory pressure. This slight reduction in GPU parallelism often yields higher overall throughput because it prevents the system from swapping.
 
 ## Context Window vs. Batch Size: The Speed Trade-off
 
@@ -45,7 +45,7 @@ Attempting to maximise both simultaneously often leads to instability. Prioritis
 
 The `--flash-attn` flag offers significant speed improvements on NVIDIA GPUs using CUDA, but its utility on Apple Silicon's Metal backend is nuanced. While recent versions of `llama.cpp` include experimental Metal implementations for flash attention, these are not yet as mature or universally stable as their CUDA counterparts. On a 16 GB system, enabling this flag without verifying version compatibility can introduce subtle bugs or unexpected memory spikes that lead to crashes.
 
-The safest initial configuration is to run inference without `--flash-attn`. This ensures baseline stability across different model versions and quantisations. Only after confirming that the core parameters (`-ngl`, `--ctx-size`, `--batch-size`) are optimised should you consider enabling flash attention. If you do test it, monitor memory usage closely; any increase in peak RAM consumption suggests the implementation is less efficient than standard attention on your specific hardware configuration.
+The safest initial configuration is to run inference without `--flash-attn`. This makes sure baseline stability across different model versions and quantisations. Only after confirming that the core parameters (`-ngl`, `--ctx-size`, `--batch-size`) are optimised should you consider enabling flash attention. If you do test it, monitor memory usage closely; any increase in peak RAM consumption suggests the implementation is less efficient than standard attention on your specific hardware configuration.
 
 For a deeper dive into model selection strategies, refer to [content-pillars-models-2026-10-25.md](~/AI/notes/content-pillars-models-2026-10-25.md).
 
@@ -67,7 +67,7 @@ For more details on privacy-focused setups, see [content-pillars-privacy-2026-10
 
 ### Summary Checklist
 
-*   **Memory Budget:** Ensure `Model Weights` + `Context Window` + `Batch Buffer` < 16 GB.
+*   **Memory Budget:** Make sure `Model Weights` + `Context Window` + `Batch Buffer` < 16 GB.
 *   **GPU Offloading:** Set `-ngl` to total layers unless context size is large; reduce slightly if swapping occurs.
 *   **Batch Size:** Start at 512 for long contexts; increase only if memory allows.
 *   **Flash Attention:** Disable initially; enable only after confirming stability on your specific `llama.cpp` version.

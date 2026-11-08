@@ -9,7 +9,7 @@ description: "Hollow-core GRID or solid-core CORE? Density, size and weight limi
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
 Foam rollers look interchangeable, but firmness is everything: too soft and it does little, too hard and you stop using it. TriggerPoint sells two popular rollers that differ mainly in core and compression. Here's how to choose.
 
@@ -31,7 +31,7 @@ Foam rollers look interchangeable, but firmness is everything: too soft and it d
 
 ## TriggerPoint GRID
 
-TriggerPoint describes a patented multi-density surface over a rigid hollow core, built not to break down or lose shape with repeated use, with a 500 lb weight limit. At 13 inches it's short enough to pack. *Pick it* if you want firm pressure for calves, quads and glutes. *Skip it* if you're new to rolling and sensitive — firmer can mean you avoid using it.
+TriggerPoint describes a patented multi-density surface over a rigid hollow core, built not to break down or lose shape with repeated use, with a 500 lb weight limit. At 13 inches it's short enough to pack. *Pick it* if you want firm pressure for calves, quads and glutes. *Skip it* if you're new to rolling and sensitive, firmer can mean you avoid using it.
 
 ## TriggerPoint CORE 18-inch
 

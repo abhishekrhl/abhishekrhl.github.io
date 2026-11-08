@@ -9,9 +9,9 @@ description: "Leak-proof bottle or straw tumbler? Four insulated options compare
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
-The first question isn't brand — it's whether the thing goes in a bag. Straw tumblers with handles are great on a desk or in a car cupholder and risky sideways in a backpack; screw-top bottles are the reverse. This guide sorts four popular options by that split, then by what each maker actually claims.
+The first question isn't brand, it's whether the thing goes in a bag. Straw tumblers with handles are great on a desk or in a car cupholder and risky sideways in a backpack; screw-top bottles are the reverse. This guide sorts four popular options by that split, then by what each maker actually claims.
 
 ## Quick picks
 
@@ -37,7 +37,7 @@ The first question isn't brand — it's whether the thing goes in a bag. Straw t
 
 ## Tumblers for desks and cars
 
-**Stanley Quencher H2.0.** Stanley's listing describes a rotating lid with three positions and says it's dishwasher safe, with a lifetime warranty when bought from Stanley resellers — worth checking who the seller is on the live page. *Pick it* if you want fewer refills at a desk. *Skip it* for bags.
+**Stanley Quencher H2.0.** Stanley's listing describes a rotating lid with three positions and says it's dishwasher safe, with a lifetime warranty when bought from Stanley resellers: worth checking who the seller is on the live page. *Pick it* if you want fewer refills at a desk. *Skip it* for bags.
 
 **Hydro Flask 32 oz Travel Tumbler.** Hydro Flask chooses its words carefully: **leak-resistant**, not leak-proof. It does stress a cupholder-friendly base. *Pick it* for driving. *Skip it* if it has to ride sideways.
 
@@ -45,7 +45,7 @@ The first question isn't brand — it's whether the thing goes in a bag. Straw t
 
 - **Hot/cold hours are maker tests** with their own conditions. Use them to compare within a brand, not across brands.
 - **Weight when full.** A 1 L steel bottle is heavy; check the product information table.
-- **Seller matters for warranty** — especially Stanley's.
+- **Seller matters for warranty**: especially Stanley's.
 
 ## Bottom line
 

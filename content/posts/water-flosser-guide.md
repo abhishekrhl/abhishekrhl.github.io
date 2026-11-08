@@ -9,7 +9,7 @@ description: "Tank size, pressure settings, tips and battery compared across thr
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
 Cordless water flossers trade tank size for convenience: small tanks mean refilling mid-session, big ones make the unit bulky. Pressure range matters if your gums are sensitive, and tip types matter if you have braces or implants. This guide compares three on those numbers.
 
@@ -47,7 +47,7 @@ A 150 ml tank, three modes with eight pressure levels, IPX7, and just two tips. 
 
 - **"Removes 99.9% of plaque"** claims are from treated areas under maker-defined conditions.
 - **Start on the lowest setting.** Bleeding gums in the first week are common; ask your dentist if it persists.
-- **Replacement tips** — check they're sold separately before buying.
+- **Replacement tips**: check they're sold separately before buying.
 
 ## Bottom line
 

@@ -10,7 +10,7 @@ affiliate: true
 
 > **Affiliate disclosure:** Some links are affiliate links. As an Amazon Associate I earn from qualifying purchases. See [Disclosure](/disclosure/). AI-assisted drafting runs on a local Ollama desk; a human still gates claims before public ship.
 
-On a 16 GB Mac mini, model **reload** time often hurts more than raw chat tokens/sec. This note compares **UGREEN-class vs Satechi-class** Mac mini docks/hubs for a quiet local-AI desk — NVMe (or fast enclosure) path, Thunderbolt vs USB realities, and fan/noise honesty — without invented benches or fake “we physically tested every SKU” claims.
+On a 16 GB Mac mini, model **reload** time often hurts more than raw chat tokens/sec. This note compares **UGREEN-class vs Satechi-class** Mac mini docks/hubs for a quiet local-AI desk, NVMe (or fast enclosure) path, Thunderbolt vs USB realities, and fan/noise honesty, without invented benches or fake “we physically tested every SKU” claims.
 
 Allow-list shopping: {{< aff slug="ugreen-mac-mini-dock" text="UGREEN Mac mini dock" >}}, {{< aff slug="satechi-mac-mini-hub" text="Satechi Mac mini hub" >}}. Related storage call: [dock vs Samsung T7 for model stores](/posts/mac-mini-dock-vs-t7-for-models/). RAM fit: [RAM × model matrix](/posts/ram-model-matrix-16gb-ollama/).
 
@@ -30,7 +30,7 @@ With 16 GB unified memory, OS + UI + one Q4 ~8–9B class model leave little spa
 2. Avoid turning every weight pull into a USB bottleneck.
 3. Not cook the mini’s underside or add a second noisy fan you cannot live with.
 
-Capacity alone does not fix RAM — see the [RAM matrix](/posts/ram-model-matrix-16gb-ollama/). Storage speed shortens the painful reload window; it does not invent headroom.
+Capacity alone does not fix RAM, see the [RAM matrix](/posts/ram-model-matrix-16gb-ollama/). Storage speed shortens the painful reload window; it does not invent headroom.
 
 ## UGREEN-class: usually the NVMe-first pick
 
@@ -46,13 +46,13 @@ CTA: {{< aff slug="ugreen-mac-mini-dock" text="UGREEN Mac mini dock" >}}. UK stu
 
 Satechi hubs/stands are frequently chosen for aluminium finish and tidy cable layouts. Some SKUs are excellent USB/TB hubs **without** a first-class NVMe bay. For local AI that matters: if all weight traffic shares a congested USB tree with displays and ethernet, reload latency is the tax.
 
-**Go when:** you already keep active models on a separate Thunderbolt NVMe enclosure (for example ACASIS-class — {{< aff slug="acasis-dual-nvme" text="ACASIS dual NVMe" >}}) and the Satechi unit is mainly ports + stand.
+**Go when:** you already keep active models on a separate Thunderbolt NVMe enclosure (for example ACASIS-class: {{< aff slug="acasis-dual-nvme" text="ACASIS dual NVMe" >}}) and the Satechi unit is mainly ports + stand.
 
 **Caution when:** you expected “the hub” to be your primary model store and the SKU has no fast NVMe path.
 
 CTA: {{< aff slug="satechi-mac-mini-hub" text="Satechi Mac mini hub" >}}.
 
-## Noise — honesty over invented dB
+## Noise: honesty over invented dB
 
 Do not trust a blog that quotes a single “25 dB” number without a meter, room, and load. On this desk the practical checks are:
 
@@ -81,11 +81,11 @@ Time one full model file load from candidate path A vs B on the **same** mini; k
 | Desk aesthetics + ports; storage already solved | **Satechi-class** hub — {{< aff slug="satechi-mac-mini-hub" text="Satechi Mac mini hub" >}} |
 | Portable backup only | T7-class secondary — not the primary weights lane |
 
-Also useful on the allow-list when comparing stands: {{< aff slug="raycue-mac-mini-dock" text="RayCue" >}}, {{< aff slug="hagibis-mac-mini-hub" text="Hagibis" >}}. Same rule — verify NVMe and Thunderbolt generation for your mini.
+Also useful on the allow-list when comparing stands: {{< aff slug="raycue-mac-mini-dock" text="RayCue" >}}, {{< aff slug="hagibis-mac-mini-hub" text="Hagibis" >}}. Same rule, verify NVMe and Thunderbolt generation for your mini.
 
 ## Close
 
-Pick the dock for **where the hot weights live** and whether you can live with its thermal/noise behaviour — not for a marketing port count. Pair with the [dock vs T7](/posts/mac-mini-dock-vs-t7-for-models/) storage call and the [RAM × model matrix](/posts/ram-model-matrix-16gb-ollama/) so you are not buying ports to fix a memory ceiling. Human still gates claims before public ship.
+Pick the dock for **where the hot weights live** and whether you can live with its thermal/noise behaviour, not for a marketing port count. Pair with the [dock vs T7](/posts/mac-mini-dock-vs-t7-for-models/) storage call and the [RAM × model matrix](/posts/ram-model-matrix-16gb-ollama/) so you are not buying ports to fix a memory ceiling. Human still gates claims before public ship.
 
 ---
 

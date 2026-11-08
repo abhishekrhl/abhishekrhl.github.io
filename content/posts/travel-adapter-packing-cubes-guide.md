@@ -9,9 +9,9 @@ description: "Universal travel adapters compared on USB ports, voltage and safet
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
-The most expensive travel-adapter mistake isn't the adapter — it's plugging a single-voltage hair straightener into 110 V or 230 V and frying it. Every adapter in this guide changes the plug shape only; none converts voltage. With that understood, here's how to choose.
+The most expensive travel-adapter mistake isn't the adapter, it's plugging a single-voltage hair straightener into 110 V or 230 V and frying it. Every adapter in this guide changes the plug shape only; none converts voltage. With that understood, here's how to choose.
 
 ## Quick picks
 
@@ -35,15 +35,15 @@ The three adapters are India-listing only; the packing cubes are verified on bot
 
 ## The voltage rule
 
-rts puts it bluntly in its listing: "This device is an adaptor, not a converter." Most phone, laptop and tablet chargers are dual-voltage (100–240 V) and are fine. Hair dryers, straighteners and kettles often aren't — check the label on the device before you travel.
+rts puts it bluntly in its listing: "This device is an adaptor, not a converter." Most phone, laptop and tablet chargers are dual-voltage (100–240 V) and are fine. Hair dryers, straighteners and kettles often aren't, check the label on the device before you travel.
 
 ## rts Universal Travel Adapter
 
-US/EU/UK/AU plug options, a universal front socket for a laptop charger, two side USB ports and safety shutters. *Pick it* if you want the most explicit instructions. *Skip it* if you need fast USB charging — no wattage is listed.
+US/EU/UK/AU plug options, a universal front socket for a laptop charger, two side USB ports and safety shutters. *Pick it* if you want the most explicit instructions. *Skip it* if you need fast USB charging, no wattage is listed.
 
 ## boAt C10
 
-Supports polarised US prongs, two USB-A ports at 10 W max each, safety shutters, surge and fuse protection, and folds flat. *Pick it* for frequent flyers. *Skip it* if 10 W USB is too slow — bring your own USB-C charger.
+Supports polarised US prongs, two USB-A ports at 10 W max each, safety shutters, surge and fuse protection, and folds flat. *Pick it* for frequent flyers. *Skip it* if 10 W USB is too slow, bring your own USB-C charger.
 
 ## Portronics Juicemate Go
 

@@ -9,7 +9,7 @@ description: "Lidar mapping, mopping and runtime compared across three robot vac
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
 Robot vacuums mostly disappoint for one reason: the buyer paid for suction numbers but the robot keeps getting lost, stuck under the sofa, or mops the rug. Navigation and room control matter more than the biggest Pa figure. This guide compares three vacuum-and-mop robots on exactly that.
 
@@ -31,28 +31,28 @@ Robot vacuums mostly disappoint for one reason: the buyer paid for suction numbe
 | Carpet handling | BoostIQ raises suction; climbs up to 20 mm | — | Carpet sensor avoids carpet when mopping, boosts suction when vacuuming |
 | Stores | IN + UK | IN + UK | IN |
 
-## eufy L60 Hybrid — best mapping on paper
+## eufy L60 Hybrid: best mapping on paper
 
-eufy lists lidar-based iPath laser navigation, app room selection, no-go zones and multi-floor mapping. Those are the features that stop a robot wandering into the cable nest behind the TV. The mop is a light-duty pad — the listing itself calls it "light surface cleaning".
+eufy lists lidar-based iPath laser navigation, app room selection, no-go zones and multi-floor mapping. Those are the features that stop a robot wandering into the cable nest behind the TV. The mop is a light-duty pad, the listing itself calls it "light surface cleaning".
 
 **Pick this if** you have several rooms or more than one floor. **Skip if** you mainly want a strong mop.
 
-## iRobot Roomba Combo (Y0110) — easiest to live with
+## iRobot Roomba Combo (Y0110): easiest to live with
 
-iRobot emphasises a four-stage cleaning system, up to 120 minutes per charge with automatic return to the dock, an edge-sweeping brush for corners, a low profile to get under beds and sofas, and a few-minute setup. Navigation is described as methodical rows with obstacle and cliff sensors — the listing does not claim lidar.
+iRobot emphasises a four-stage cleaning system, up to 120 minutes per charge with automatic return to the dock, an edge-sweeping brush for corners, a low profile to get under beds and sofas, and a few-minute setup. Navigation is described as methodical rows with obstacle and cliff sensors, the listing does not claim lidar.
 
 **Pick this if** you want something simple for one level. **Skip if** you need room-by-room maps with no-go zones.
 
-## ECOVACS DEEBOT Y1 PRO — biggest listed numbers
+## ECOVACS DEEBOT Y1 PRO: biggest listed numbers
 
 ECOVACS lists 6,500 Pa, a 5,200 mAh battery, up to 320 minutes and up to 3,500 ft² per charge, LiDAR mapping, a 33 cm body width, and a carpet sensor that keeps the mop off rugs. I could verify this listing only on Amazon.in.
 
-**Pick this if** you have a large single-floor home with mixed floors. **Skip if** you want app features like no-go zones confirmed — the bullets focus on hardware, so check the app details on the live page.
+**Pick this if** you have a large single-floor home with mixed floors. **Skip if** you want app features like no-go zones confirmed: the bullets focus on hardware, so check the app details on the live page.
 
 ## What the listings don't tell you
 
 - **Pa numbers aren't comparable across brands.** Test conditions differ.
-- **Dock and bin.** None of these three is listed as self-emptying in the bullets — you'll empty the bin.
+- **Dock and bin.** None of these three is listed as self-emptying in the bullets: you'll empty the bin.
 - **Obstacles.** Pick up cables and socks first; no listing here claims object recognition.
 - **Height under furniture.** Measure the gap under your sofa and compare with the robot height in the product table.
 

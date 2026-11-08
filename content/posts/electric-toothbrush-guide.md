@@ -9,7 +9,7 @@ description: "Rotating or sonic? Pressure sensors, modes, timers and battery com
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
 The two features that change brushing habits are a pressure sensor (stops you scrubbing your gums) and a two-minute timer with 30-second prompts. Most mid-range electric toothbrushes have both; the real choice is rotating head (Oral-B) versus sonic (Philips), and how much you'll pay for extra modes. This guide compares four.
 
@@ -38,7 +38,7 @@ Oral-B lists three modes, a pressure sensor that alerts you when you push too ha
 
 ## Oral-B iO3
 
-The iO platform pairs a round head with "tuft-in-tuft" bristles and micro-vibrations, plus Oral-B's iO pressure sensor, three smart modes and IPX7 water resistance. *Pick it* for Oral-B's newer tech without top-tier extras. *Skip it* if brush-head cost matters — iO heads are a separate system from Pro heads.
+The iO platform pairs a round head with "tuft-in-tuft" bristles and micro-vibrations, plus Oral-B's iO pressure sensor, three smart modes and IPX7 water resistance. *Pick it* for Oral-B's newer tech without top-tier extras. *Skip it* if brush-head cost matters, iO heads are a separate system from Pro heads.
 
 ## Philips Sonicare 4100
 

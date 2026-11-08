@@ -17,7 +17,7 @@ The command line works well if you are comfortable typing prompts and managing t
 
 If you require a chat interface for multiple users simultaneously, or if you need to manage complex conversation histories with visual aids, a UI layer adds value. But this value comes at a cost. Every additional process consumes RAM and CPU cycles. On a sixteen gigabyte machine, every megabyte counts. You must weigh the convenience of clicking a button against the risk of swapping memory pages to disk.
 
-### 2. Open WebUI against a local Ollama endpoint — memory cost on ~16 GB
+### 2. Open WebUI against a local Ollama endpoint: memory cost on ~16 GB
 
 Open WebUI is not just a chat window; it is a server application. It runs a backend that connects to your local LLM, usually via an HTTP request to the Ollama endpoint. This means you are running two distinct processes: the inference engine (Ollama) and the interface layer (Open WebUI).
 
@@ -39,4 +39,4 @@ Resource management on low-end hardware requires strict discipline. You cannot r
 
 Consider the type of workload. Video generation or heavy audio processing tasks demand sustained GPU and CPU usage. These tasks are incompatible with interactive text generation in terms of resource availability. If you plan to run local audio synthesis using frameworks like those supported by `/go/mlx-audio/` or similar tools, these should not share the same time slot as your primary writing model.
 
-mlx-audio focuses on on-device text-to-speech and voice tasks; it does not handle video synthesis. Video generation remains a separate workload class with different resource demands. A practical strategy is to separate workloads by time. Use the afternoon for high-priority text generation with your main model. Reserve the night hours for batch processing tasks, such as generating audio clips or rendering short videos. This ensures that your interactive sessions remain responsive while you sleep. The sixteen gigabyte budget cannot sustain constant heavy load; it requires rest periods between intensive jobs.
+mlx-audio focuses on on-device text-to-speech and voice tasks; it does not handle video synthesis. Video generation remains a separate workload class with different resource demands. A practical strategy is to separate workloads by time. Use the afternoon for high-priority text generation with your main model. Reserve the night hours for batch processing tasks, such as generating audio clips or rendering short videos. This makes sure that your interactive sessions remain responsive while you sleep. The sixteen gigabyte budget cannot sustain constant heavy load; it requires rest periods between intensive jobs.

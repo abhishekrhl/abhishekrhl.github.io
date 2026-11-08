@@ -9,9 +9,9 @@ description: "Combs, motor, battery and blade life compared for two Philips OneB
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
-OneBlade isn't a razor and isn't a regular trimmer — Philips says plainly it won't give a completely clean shave. It's for stubble, edges and trimming, especially on sensitive or acne-prone skin. Within the range, the choice is a beginner model or a more powerful one. Both listings are verified on Amazon.in only; the UK pages show different model numbers.
+OneBlade isn't a razor and isn't a regular trimmer, Philips says plainly it won't give a completely clean shave. It's for stubble, edges and trimming, especially on sensitive or acne-prone skin. Within the range, the choice is a beginner model or a more powerful one. Both listings are verified on Amazon.in only; the UK pages show different model numbers.
 
 ## Quick picks
 
@@ -42,7 +42,7 @@ Philips lists a 12,000-per-minute motor for thick hair, 45 minutes per charge vi
 ## What the listings don't tell you
 
 - **Blade replacement cost.** At "up to 4 months" per blade, budget for refills.
-- **Charger.** USB-A charging — check whether an adapter is in the box.
+- **Charger.** USB-A charging: check whether an adapter is in the box.
 - **Clean-shave expectations.** Philips explicitly says OneBlade won't give a completely clean shave.
 
 ## Bottom line

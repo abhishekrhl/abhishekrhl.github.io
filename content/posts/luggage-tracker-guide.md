@@ -9,7 +9,7 @@ description: "iPhone, Android or both? Network, battery, range and water resista
 affiliate: true
 ---
 
-> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted — check the live page.
+> **Affiliate disclosure:** Product links on this page are affiliate links (marked *Ad*). As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. See [Disclosure](/disclosure/). This is a research-based guide: specs below are taken from the manufacturers' Amazon.in / Amazon.co.uk product pages as listed on 1 November 2026, not from hands-on testing. Prices change daily, so none are quoted, check the live page.
 
 A tracker is only as good as the network of phones around it. That makes your phone's platform the first decision, not the tracker's design. This guide picks between three trackers that each lean on a different network.
 
@@ -33,15 +33,15 @@ A tracker is only as good as the network of phones around it. That makes your ph
 
 ## Apple AirTag (2nd generation)
 
-Apple lists expanded Precision Finding (step-by-step directions now on Apple Watch too), a 50% louder speaker, upgraded Ultra Wideband and Bluetooth chips for longer range, and — for luggage specifically — the ability to share an AirTag's location with over 50 airline partners. *Pick it* if you're on iPhone. *Skip it* on Android.
+Apple lists expanded Precision Finding (step-by-step directions now on Apple Watch too), a 50% louder speaker, upgraded Ultra Wideband and Bluetooth chips for longer range, and, for luggage specifically, the ability to share an AirTag's location with over 50 airline partners. *Pick it* if you're on iPhone. *Skip it* on Android.
 
 ## JioTag (2nd generation)
 
-Jio's pitch is flexibility: it pairs with Android via Google Find Hub or with iOS via Apple Find My, though only one network at a time — switching means removing it, resetting and re-pairing. It lists a 120 dB speaker and IP64 rating. *Pick it* for Android users or a household that might switch phones.
+Jio's pitch is flexibility: it pairs with Android via Google Find Hub or with iOS via Apple Find My, though only one network at a time, switching means removing it, resetting and re-pairing. It lists a 120 dB speaker and IP64 rating. *Pick it* for Android users or a household that might switch phones.
 
 ## Tile Mate
 
-Tile lists 105 m Bluetooth range, up to three-year battery, IP68 water resistance, a discreet SOS alert, and a button to ring your phone even when silenced. It lives in the Life360 app. *Pick it* if your family already uses Life360. *Skip it* if you want the crowd-finding scale of Apple's or Google's networks — Tile's listing focuses on Bluetooth range.
+Tile lists 105 m Bluetooth range, up to three-year battery, IP68 water resistance, a discreet SOS alert, and a button to ring your phone even when silenced. It lives in the Life360 app. *Pick it* if your family already uses Life360. *Skip it* if you want the crowd-finding scale of Apple's or Google's networks, Tile's listing focuses on Bluetooth range.
 
 ## What the listings don't tell you
 

@@ -11,7 +11,7 @@ description: "Quiet-desk anti-patterns on a 16 GB Mac mini: overlapping Ollama a
 
 The fastest way to ruin a 16 GB local-AI desk is to run the wrong job at the wrong hour. Overnight video wants throughput. Drafting wants low latency. Freqtrade `dry_run` wants a calm machine. Stack them and you get thermal thrash, swap, and drafts that feel “busy” while producing nothing useful.
 
-These are the anti-patterns I treat as hard stops — not style tips.
+These are the anti-patterns I treat as hard stops, not style tips.
 
 ## Anti-pattern 1: Prose beside a night render
 
@@ -23,7 +23,7 @@ Fix: separate lanes. See [overnight windows](/posts/overnight-windows-quiet-desk
 
 “Just one more chat UI” is how a second runner appears in `ollama ps`. On 16 GB that usually means swap. Swap looks like activity and feels like progress; it is neither.
 
-Fix: one model while drafting. Park Open WebUI experiments in their own session — [Open WebUI beside Ollama](/posts/open-webui-llama-cpp-beside-ollama/). Prefer [llama.cpp](/go/llama-cpp/) alone when pulling a heavier GGUF; never beside a night render.
+Fix: one model while drafting. Park Open WebUI experiments in their own session, [Open WebUI beside Ollama](/posts/open-webui-llama-cpp-beside-ollama/). Prefer [llama.cpp](/go/llama-cpp/) alone when pulling a heavier GGUF; never beside a night render.
 
 ## Anti-pattern 3: Mistaking thrash for throughput
 
@@ -47,9 +47,9 @@ Dry_run trading stays isolated so inference latency cannot invent a “missed fi
 
 ## Anti-pattern 5: Invented affiliate paths
 
-A `/go/` slug that is not in `links.csv` (say, a made-up dock slug) is a broken promise. On GitHub Pages that is a 404 or a silent miss — either way the disclosure is empty for that click.
+A `/go/` slug that is not in `links.csv` (say, a made-up dock slug) is a broken promise. On GitHub Pages that is a 404 or a silent miss, either way the disclosure is empty for that click.
 
-Fix: allow-list only — [affiliate allow-list hygiene](/posts/affiliate-allow-list-hygiene/). Placeholders for UK Associates are fine; invented ASINs are not.
+Fix: allow-list only, [affiliate allow-list hygiene](/posts/affiliate-allow-list-hygiene/). Placeholders for UK Associates are fine; invented ASINs are not.
 
 ## Anti-pattern 6: Voice and video on top of a hot writer
 
@@ -70,18 +70,18 @@ Local models are fluent. Fluency is not accuracy. Run deslop + claims extraction
 
 Quiet is a schedule with teeth. Break the anti-patterns and the desk becomes a noisy hobby machine; keep them and the same 16 GB box ships honest posts readers finish.
 
-When Hugo builds, give it its own quiet window — not a fight with [Apple silicon](/go/apple-silicon/) thermals already deep in a render.
+When Hugo builds, give it its own quiet window, not a fight with [Apple silicon](/go/apple-silicon/) thermals already deep in a render.
 
 ---
 
 ## Desk gear that actually helps a 16 GB Mac mini (affiliate)
 
-If model files and drafts are fighting the internal SSD, external NVMe via a Mac mini dock is the practical upgrade — not a bigger cloud bill.
+If model files and drafts are fighting the internal SSD, external NVMe via a Mac mini dock is the practical upgrade, not a bigger cloud bill.
 
-- [UGREEN Mac mini dock with NVMe slot](/go/ugreen-mac-mini-dock/) (affiliate) — ports + model-library drive in one stand.
-- [Satechi Mac mini hub & stand](/go/satechi-mac-mini-hub/) (affiliate) — design-matched alternative.
-- [Samsung T7 Shield portable SSD](/go/samsung-t7-shield/) (affiliate) — fast offload for GGUF libraries when a full dock is overkill.
-- UK readers: [UGREEN on Amazon.co.uk](/go/ugreen-mac-mini-dock-uk/) (placeholder — Associates tag lands after UK approval).
+- [UGREEN Mac mini dock with NVMe slot](/go/ugreen-mac-mini-dock/) (affiliate): ports + model-library drive in one stand.
+- [Satechi Mac mini hub & stand](/go/satechi-mac-mini-hub/) (affiliate): design-matched alternative.
+- [Samsung T7 Shield portable SSD](/go/samsung-t7-shield/) (affiliate): fast offload for GGUF libraries when a full dock is overkill.
+- UK readers: [UGREEN on Amazon.co.uk](/go/ugreen-mac-mini-dock-uk/) (placeholder: Associates tag lands after UK approval).
 
 Disclosure: as an Amazon Associate I earn from qualifying purchases. See [/disclosure/](/disclosure/).
 
