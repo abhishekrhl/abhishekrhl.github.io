@@ -1,6 +1,6 @@
-# Quiet Local AI Desk
+# Quiet Local AI Desk (LogicatInc)
 
-> Practical notes on running local language models (Ollama, llama.cpp) on Apple silicon Mac minis, written from one 16 GB Mac mini M4 desk. Product links are affiliate links (Amazon.in tag abhishekrhl-21, Amazon.co.uk tag mstejuv-21) and are disclosed on every page.
+> Practical notes on running local language models (Ollama, llama.cpp) on Apple silicon Mac minis, published by LogicatInc, written from one 16 GB Mac mini M4 desk. Product links are affiliate links (Amazon.in tag abhishekrhl-21, Amazon.co.uk tag mstejuv-21) and are disclosed on every page.
 
 Only measured numbers are published as benchmarks. Anything not in /benchmarks.json has not been tested here.
 
